@@ -1,0 +1,384 @@
+<pre class='metadata'>
+Title: Electronic Straw Polls
+Shortname: D2195
+Revision: 0
+Status: D
+Group: WG21
+Audience: WG21
+Editor: Bryce Adelstein Lelbach — Library Evolution Chair, NVIDIA, brycelelbach@gmail.com
+Editor: JF Bastien — Language Evolution Chair, Apple, jfbastien@apple.com
+URL: https://wg21.link/P2195R0
+!Source: <a href="https://github.com/brycelelbach/wg21_p2195_electronic_straw_polls/blob/master/electronic_straw_polls.bs">GitHub</a>
+Issue Tracking: GitHub https://github.com/brycelelbach/wg21_p2195_electronic_straw_polls/issues
+Metadata Order: Author, This Version, Source, Issue Tracking, Project, Audience
+Markup Shorthands: markdown yes
+Toggle Diffs: no
+No Abstract: yes
+Boilerplate: style-syntax-highlighting off
+</pre>
+
+<style>
+pre {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.ins, ins, ins *, span.ins, span.ins * {
+  background-color: rgb(200, 250, 200);
+  color: rgb(0, 136, 0);
+  text-decoration: none;
+}
+.del, del, del *, span.del, span.del * {
+  background-color: rgb(250, 200, 200);
+  color: rgb(255, 0, 0);
+  text-decoration: line-through;
+  text-decoration-color: rgb(255, 0, 0);
+}
+math, span.math {
+  font-family: serif;
+  font-style: italic;
+}
+ul {
+  list-style-type: "— ";
+}
+blockquote {
+  counter-reset: paragraph;
+}
+div.numbered, div.newnumbered {
+  margin-left: 2em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+div.numbered:before, div.newnumbered:before {
+  position: absolute;
+  margin-left: -2em;
+  display-style: block;
+}
+div.numbered:before {
+  content: counter(paragraph);
+  counter-increment: paragraph;
+}
+div.newnumbered:before {
+  content: "�";
+}
+div.numbered ul, div.newnumbered ul {
+  counter-reset: list_item;
+}
+div.numbered li, div.newnumbered li {
+  margin-left: 3em;
+}
+div.numbered li:before, div.newnumbered li:before {
+  position: absolute;
+  margin-left: -4.8em;
+  display-style: block;
+}
+div.numbered li:before {
+  content: "(" counter(paragraph) "." counter(list_item) ")";
+  counter-increment: list_item;
+}
+div.newnumbered li:before {
+  content: "(�." counter(list_item) ")";
+  counter-increment: list_item;
+}
+</style>
+
+# Motivation # {#motivation}
+
+For forseeable future, the Standard C++ Committee will be conducting our
+  technical work in a virtual environment.
+The switch to remote work has required us to make changes to our review process
+  (see [[P2145]]).
+
+We also need evolve our decision making process.
+
+## Asynchronous & Synchronous Decision Making ## {#asynchronous-and-synchronous-decision-making}
+
+**Synchronous decision making** is a process for making decisions in which those
+  involved meet at an appointed time (face to face or via telecon), discuss
+  the subject matter, and then vote on the decision.
+
+**Asynchronous decision making** is a process for making decisions in which an
+  arbitrary deadline is set, those involved discuss the subject matter (email,
+  face to face, and/or telecon), and vote on the decision before the deadline.
+
+One of the main motivations for synchronous decision making is that it attempts
+  to ensures that those voting on a poll are informed on the subject matter, as
+  they were present for the discussion of the subject matter of the poll.
+However, despite our best efforts, we cannot force participants to be engaged
+  and follow the discussion, even if they are present.
+
+There are a number of downsides to synchronous decision making:
+
+* It limits stakeholder involvement to those who can present at the meeting.
+  For face to face meeting, this requires participants to travel to the meeting
+    location.
+  For telecon, it is almost impossible to avoid excluding some stakeholders due
+    to time zone constraints.
+* It often forces stakeholers present at to choose which decisions they wish to
+    be involved with.
+  At the last few face to face meetings, we have had seven concurrent subgroups
+    meeting for most of the week; it is almost impossible to avoid conflicts.
+  For telecons, it is almost impossible to avoid excluding some stakeholers due
+    to schedule constraints.
+* It limits the amount of discussion that can proceed making a decision.
+  Synchronous meeting time is a precious and limited resource.
+* It does not leave time for reflection and reconsideration.
+  Synchronous decision making asks us to make a decision immediately after a
+    discussion.
+  While we can almost always reconsider decisions in light of new information or
+    new perspectives, it is often wise to give stakeholders more time than a
+    synchronus meeting can last to think about the decision and investigate
+    open questions they may have.
+
+Asynchronous decision making addresses these shortcomings.
+It allows more stakeholders to be involved in decision making and allows
+  stakeholders to spend more time deciding their position.
+
+We believe that subgroup chairs should have access to asynchronous decision
+  making mechanisms in addition to the traditional synchronous decision making
+  mechanisms that we use today.
+
+## Prior Art ## {#prior-art}
+
+Historically, decision making within the Committee has been synchronous and has
+  occured at face to face meetings:
+
+* **Straw Polls in Subgroups:** Subgroups have used informal polls during
+    face-to-face meetings to decide whether to pursue proposals, provide
+    directions for future revisions of proposals, make policy decisions, and
+    forward proposals to other subgroups or plenaries.
+  Anyone physically in attendance when a straw poll is taken is allowed to
+    participate, including those who are visitors and do not yet have formal
+    membership in a National Body.
+  Typically, chairs discourage those who were not present for the discussion
+    preceding the poll to not vote, but they are not disallowed from doing so.
+  Decisions made in this way are not strictly binding; if new information or new
+    perspectives are discovered, decisions can always be revisited.
+* **Plenary Polls:** More formal polls are taken during plenaries at face to
+    face meetings.
+  Only formal Committee members may participate in plenary polls.
+  Plenary polls are used to approve changes to the working draft of the C++
+    International Standard or a C++ Technical Specification, create or advance
+    work items to the next stage in their publication cycle, and make
+    Committee-wide policy decisions.
+  In the past few years, we have avoided technical discussion on the subject
+    matter of a plenary poll during the plenary itself; technical discussion
+    is supposed to happen in the applicable subgroups prior to plenary.
+
+Some of the decisions made at plenary meetings, such as the creation and
+  advancement of work items through their publication cycle, lead to
+  asynchronous electronic ballots at the ISO level which then trickle down to
+  our National Bodies, each of which uses their own decision making process.
+Typically these ISO ballots are open for a few weeks or months, giving ample time
+  for stakeholders to consider the subject matter and make up their mind.
+
+The parent organization of the US National Body, INCITS, makes most decisions
+  asynchronously through electronic ballots or calls for comments which are open
+  for a few weeks or months.
+
+Our sister organization, the Standard Fortran Committee, makes synchronous
+  decisions at face to face meetings.
+However, many of these decisions are considered preliminary and are followed up
+  with an electronic ballot within the Committee.
+The below excerpt describes their process for one particular type of ballot:
+
+> The rules for interpretation handling by which we operate say:
+>
+> * J3 votes on the answer at a J3 meeting; a simple majority vote marks the
+>     answer as "passed by J3 meeting".
+> * Between J3 meetings the chair of /interp sends a J3 letter ballot to J3 to
+>     approve interp answers that have been "passed by J3 meeting".
+>   The letter ballot runs for 30 days.
+>   An interp answer passes by a 2/3rds vote; a no vote must be accompanied by
+>     an explanation of the changes necessary to change the member's vote to yes.
+>   J3/interp reserves the right to recall an interp answer for more study even
+>     if the answer passes.
+
+# Proposed Changes # {#proposed-changes}
+
+We propose that subgroup chairs should have the option to conduct subgroup straw
+  polls asynchronously through an electronic polling service on isocpp.org.
+
+Henceforth, straw polls should be divided into two categories:
+
+* **Direction Straw Polls:** These polls are taken to suggest the direction that
+    a proposal should pursue in the next revision that comes before the subgroup
+    taking the poll.
+  These polls will usually be taken on younger proposals, where there are still
+    many open questions and areas for additional investigation.
+  Direction Straw Polls can only be taken on proposals that will return to the
+    same subgroup before proceeding further.
+  The results of these polls can always be revisited if new information or new
+    perspectives are discovered.
+  Direction Straw Polls may be taken either synchronously at meetings or
+    asynchronously via electronic ballot.
+* **Decision Straw Polls:** These polls are taken to make decisions regarding a
+    proposal once the subgroup is confident that all applicable and relevant
+    aspects of the decision have been discussed.
+  These polls will typically be taken on proposals that have been in the
+    subgroup for a few revisions.
+  Decision Straw Polls may forward proposals to other subgroups or to plenary.
+  The results of these polls can always be revisited if new information or new
+    perspectives are discovered.
+  Decision Straw polls must be taken asynchronously via electronic ballot.
+
+Today, the purpose of meetings is to make decisions.
+Work on proposals is largely done outside of meetings.
+At meetings, we review proposals, identifying where additional work is needed
+  before a decision is made, and, when sufficient information is available,
+  making decisions about how and if a proposal should proceed.
+
+We propose a new model, where the purpose of meetings is to drive decision
+  making.
+Meetings would continue to be used to review and refine proposals and identify
+  open questions.
+However, instead of focusing on making decisions at meetings, we would instead
+  focus on identifying the decisions that need to be made.
+Some decision making would continue to occur at meetings, such as anything that
+  would qualify for a Guidance Straw Poll could be decided at a meeting.
+But, major decisions would be asynchronously via electronic ballots.
+
+# Electronic Straw Poll Specification # {#electronic-straw-poll-specification}
+
+Electronic straw polls shall be conducted through a service on isocpp.org.
+
+## Poll Structure ## {#poll-structure}
+
+The service shall support five-way polls.
+
+A five-way poll consists of an arbitrary statement, determined by the applicable
+  subgroup chair.
+Poll statements shall not be changed after the poll has begun.
+
+In a five-way poll, voters may select a stance on the statement being polled
+  from these five options:
+
+* Strongly For.
+* Weakly For.
+* Neutral.
+* Weakly Against.
+* Strongly Against.
+
+## Eligiblity for Voting ## {#eligibility-for-voting}
+
+The service shall use the same login system as the isocpp.org paper submission
+  service.
+
+An individual is eligible to obtain an isocpp.org account and participate in
+  a subgroup's electronic straw polls if they are any of the following:
+
+* A member of a National Body that participates in the Standard C++ Committee,
+    including any employee of a company that is already a member of a National
+    Body.
+* Any person who has attended a face to face meeting in the past.
+* Any person who has authored a proposal to the subgroup.
+* Any individual who has been invited by the subgroup's chair.
+
+## Voting ## {#voting}
+
+Each voter may participant once on each poll.
+
+Voters shall be able to leave a comment in addition to their vote.
+
+Each voter may change their vote and comment at any time prior to the closing of
+  a vote.
+
+## Creation of Polls ## {#creation-of-polls}
+
+Subgroup chairs may create polls.
+
+## Discussion Prior to Polling ## {#discussion-prior-to-polling}
+
+The subject of a poll shall be discussed either at a meeting or via the
+  applicable mailing list prior to the start of a poll.
+
+Chairs shall notify voters 48 hours prior to the start of a poll and distribute
+  a draft of the poll statement for feedback.
+
+## Poll Notifications ## {#poll-notifications}
+
+A new mailing list, polls@lists.isocpp.org, shall be established.
+This mailing list shall be used for notifications regarding polls, but not for
+  discussions of polls or poll results.
+
+Once a poll has started, chairs shall notify the applicable mailing lists and
+  polls@lists.isocpp.org.
+
+At the start of any subgroup meeting, if that subgroup has open polls, the chair
+  shall notify the group of said polls.
+
+## Poll Deadlines ## {#poll-deadlines}
+
+Each poll shall be open for voting for at least two weeks.
+
+## Poll Results ## {#poll-results}
+
+The votes and comments of all voters shall be visible to all other voters.
+
+Once a poll closes, the chair who created the poll shall distribute an
+  interpretation of the poll results via the applicable mailing lists, minutes
+  pages, and/or GitHub issues.
+
+No one shall share the identities and positions of voters with non-voters
+  without the explicit permission of said voters.
+Poll statements, vote counts, and the chair's interpretation of the results
+  may be shared externally.
+
+# FAQ # {#faq}
+
+**Q: Won't electronic straw polls allow people who weren't involved in discussion at a meeting to vote?**
+
+Yes.
+
+In synchronous decision making, we discourage those who were not present for the
+  discussion prior to a poll to not vote because they do not have time to
+  familiarize themselves with the discussion before the poll is taken.
+In asynchronous decision making, those not present for a discussion will have
+  ample time (at least two weeks) to familiarize themselves with the discussion
+  and background.
+
+It is true that some people may choose to not familiarize themselves with the
+  subject matter and prior discussions and still vote.
+However, synchronous decision making is also susceptible to inattentiveness.
+The presence of an individual at a particular meeting does not imply that they
+  were paying attention during the meeting.
+
+The best we can do is what we have always done: encourage people to either
+  familiarize themselves with the subject matter and discussion or choose to not
+  vote.
+
+**Q: What about plenary and plenary polls?**
+
+This proposal does not suggest any changes to our plenary process at this time.
+We believe incremental change is safer than drastic change.
+We suggest that the Standard C++ Committee start pursuing electronic straw
+  polls for subgroups and assess the effectiveness and ramifications of this
+  change in a few months before considering further process changes.
+
+There is no pressing need to hold a plenary meeting for the next few months.
+We do not need to advance any Standard C++ work items to the next publication
+  stage in the immediate future.
+
+The US National Body, INCITS PL22.16, typically meets jointly with our
+  international ISO Committee.
+INCITS PL22.16 is required to hold two meetings (either face to face or
+  virtual) a year and has only held one in 2020.
+Failure to attend these meetings can jeopardize voting membership.
+So, regardless of anything else we do, it will be necessary for a very large
+  part of the Standard C++ Committee to hold a telecon before the end of the
+  year.
+
+In the future, if we decide to electronically ballot plenary polls, there are
+  already systems in place to handle electronic balloting of formal individual
+  members within an ISO committee.
+ISO provides a electronic balloting system which we could use to poll the
+  individual membership.
+ISO ballots for creating or advancing work items to the next publication stage
+  are voted on by National Bodies, not the individual members.
+However, ISO provides another type of ballot,
+  <a href="https://helpdesk-docs.iso.org/article/318-create-wg">Working Group consultations</a>,
+  which the formal individual members of a Committee vote on.
+
+Given that technical discussion is already discouraged for plenary polls and
+  is intended to happen disjointly in subgroups prior the plenary, electronic
+  voting for plenary polls seems like a natural fit.
+
