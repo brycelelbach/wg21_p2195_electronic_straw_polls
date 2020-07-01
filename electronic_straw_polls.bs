@@ -8,7 +8,7 @@ Audience: WG21
 Editor: Bryce Adelstein Lelbach — Library Evolution Chair, NVIDIA, brycelelbach@gmail.com
 Editor: JF Bastien — Language Evolution Chair, Apple, jfbastien@apple.com
 URL: https://wg21.link/P2195R0
-!Source: <a href="https://github.com/brycelelbach/wg21_p2195_electronic_straw_polls/blob/master/electronic_straw_polls.bs">GitHub</a>
+!Source: <a href="https://github.com/brycelelbach/wg21_p2195_electronic_straw_polls/blob/main/electronic_straw_polls.bs">GitHub</a>
 Issue Tracking: GitHub https://github.com/brycelelbach/wg21_p2195_electronic_straw_polls/issues
 Metadata Order: Author, This Version, Source, Issue Tracking, Project, Audience
 Markup Shorthands: markdown yes
