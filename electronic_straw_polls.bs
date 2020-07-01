@@ -6,6 +6,7 @@ Status: D
 Group: WG21
 Audience: WG21
 Editor: Bryce Adelstein Lelbach — Library Evolution Chair, NVIDIA, brycelelbach@gmail.com
+Editor: Ben Craig — Library Evolution Vice Chair, ben.craig@gmail.com
 Editor: JF Bastien — Language Evolution Chair, Apple, jfbastien@apple.com
 URL: https://wg21.link/P2195R0
 !Source: <a href="https://github.com/brycelelbach/wg21_p2195_electronic_straw_polls/blob/main/electronic_straw_polls.bs">GitHub</a>
@@ -83,68 +84,73 @@ div.newnumbered li:before {
 
 # Motivation # {#motivation}
 
-For forseeable future, the Standard C++ Committee will be conducting our
-  technical work in a virtual environment.
-The switch to remote work has required us to make changes to our review process
-  (see [[P2145]]).
+The Standard C++ Committee is starting to conduct more and more of our
+  technical work in a virtual environment (see [[P2145]]).
+This switch to remote work has required us to make changes to how we meet and
+  collaborate.
 
-We also need to evolve our decision making process.
+We also need to evolve our consensus building process.
 We propose that subgroup chairs should have the option to conduct subgroup straw
   polls asynchronously through an electronic polling service on isocpp.org.
 
-## Asynchronous & Synchronous Decision Making ## {#asynchronous-and-synchronous-decision-making}
+## Consensus Building Mechanisms ## {#consensus-building-mechanisms}
 
-**Synchronous decision making** is a process for making decisions in which those
-  involved meet at an appointed time (face-to-face or via telecon), discuss
-  the subject matter, and then vote on the decision.
+<dfn>Synchronous Consensus Building</dfn> is a process for building consensus
+  in which those involved meet at an appointed time (face-to-face or via
+  telecon), discuss the subject matter, and then work to reach a consensus
+  position before the end of the meeting.
 
-**Asynchronous decision making** is a process for making decisions in which an
-  arbitrary deadline is set, those involved discuss the subject matter (email,
-  face-to-face, and/or telecon), and vote on the decision before the deadline.
+<dfn>Asynchronous Consensus Building</dfn> is a process for building consensus
+  in which a deadline is set, those involved discuss the subject matter (email,
+  face-to-face, and/or telecon), and then work to reach a consensus decision
+  before the deadline.
 
-One of the main motivations for synchronous decision making is that it attempts
-  to ensures that those voting on a poll are informed on the subject matter, as
-  they were present for the discussion of the subject matter of the poll.
+One of the main motivations for [=synchronous consensus building=] making is that
+  it attempts to ensures that those voting on a poll are informed on the subject
+  matter, as they were present for the discussion of the subject matter of the
+  poll.
 However, despite our best efforts, we cannot force participants to be engaged
   and follow the discussion, even if they are present.
 
-There are a number of downsides to synchronous decision making:
+There are a number of downsides to [=synchronous consensus building=]:
 
 * It limits stakeholder involvement to those who can present at the meeting.
   For face-to-face meeting, this requires participants to travel to the meeting
     location.
   For telecon, it is almost impossible to avoid excluding some stakeholders due
     to time zone constraints.
-* It often forces stakeholers present at to choose which decisions they wish to
-    be involved with.
+* It often forces stakeholders present at meetings to choose which decisions
+    they wish to be involved with.
   At the last few face-to-face meetings, we have had seven concurrent subgroups
     meeting for most of the week; it is almost impossible to avoid conflicts.
-  For telecons, it is almost impossible to avoid excluding some stakeholers due
+  For telecons, it is almost impossible to avoid excluding some stakeholders due
     to schedule constraints.
 * It limits the amount of discussion that can proceed making a decision.
   Synchronous meeting time is a precious and limited resource.
 * It does not leave time for reflection and reconsideration.
-  Synchronous decision making asks us to make a decision immediately after a
-    discussion.
+  [=Synchronous consensus building=] asks us to make a decision immediately
+    after a discussion.
   While we can almost always reconsider decisions in light of new information or
     new perspectives, it is often wise to give stakeholders more time than a
     synchronus meeting can last to think about the decision and investigate
     open questions they may have.
 
-Asynchronous decision making addresses these shortcomings.
-It allows more stakeholders to be involved in decision making and allows
-  stakeholders to spend more time deciding their position.
+[=Asynchronous consensus building=] addresses these shortcomings.
+It allows more stakeholders to be involved in consensus building.
+It removes the pressure and hastiness of trying to determine consensus before
+  the end of a meeting, giving stakeholders more time to contemplate and decide
+  their position.
 
-We believe that subgroup chairs should have access to asynchronous decision
-  making mechanisms in addition to the traditional synchronous decision making
-  mechanisms that we use today.
+We believe that subgroup chairs should have access to
+  [=asynchronous consensus building=] mechanisms in addition to the traditional
+  [=synchronous consensus building=] mechanisms that we use today.
 
 ## Prior Art ## {#prior-art}
 
-Historically, decision making within the Committee has been synchronous and has
-  occured at face-to-face meetings:
+Historically, consensus building within the Standard C++ Committee has been
+  synchronous and has occured at face-to-face meetings:
 
-* **Straw Polls in Subgroups:** Subgroups have used informal polls during
+* <dfn>Straw Polls</dfn>: Subgroups have used informal polls during
     face-to-face meetings to decide whether to pursue proposals, provide
     directions for future revisions of proposals, make policy decisions, and
     forward proposals to other subgroups or plenaries.
@@ -155,7 +161,7 @@ Historically, decision making within the Committee has been synchronous and has
     preceding the poll to not vote, but they are not disallowed from doing so.
   Decisions made in this way are not strictly binding; if new information or new
     perspectives are discovered, decisions can always be revisited.
-* **Plenary Polls:** More formal polls are taken during plenaries at
+* <dfn>Plenary Polls:</dfn> More formal polls are taken during plenaries at
     face-to-face meetings.
   Only formal Committee members may participate in plenary polls.
   Plenary polls are used to approve changes to the working draft of the C++
@@ -169,18 +175,19 @@ Historically, decision making within the Committee has been synchronous and has
 Some of the decisions made at plenary meetings, such as the creation and
   advancement of work items through their publication cycle, lead to
   asynchronous electronic ballots at the ISO level which then trickle down to
-  our National Bodies, each of which uses their own decision making process.
+  our National Bodies, each of which uses their own consensus building process.
 Typically these ISO ballots are open for a few weeks or months, giving ample time
   for stakeholders to consider the subject matter and make up their mind.
 
-The parent organization of the US National Body, INCITS, makes most decisions
-  asynchronously through electronic ballots or calls for comments which are open
-  for a few weeks or months.
+The parent organization of the US National Body, INCITS,
+  [=Asynchronous Consensus Building|builds consensus asynchronously=] through
+  electronic ballots or calls for comments which are open for a few weeks or
+  months.
 
 Our sister organization, the Standard Fortran Committee, makes synchronous
   decisions at face-to-face meetings.
 However, many of these decisions are considered preliminary and are followed up
-  with an electronic ballot within the Committee.
+  with an electronic ballot within the Committee to determine consensus.
 The below excerpt describes their process for one particular type of ballot:
 
 > The rules for interpretation handling by which we operate say:
@@ -198,7 +205,8 @@ The below excerpt describes their process for one particular type of ballot:
 # Proposed Changes # {#proposed-changes}
 
 We propose that subgroup chairs should have the option to conduct subgroup straw
-  polls asynchronously through an electronic polling service on isocpp.org.
+  polls asynchronously through an electronic polling service on isocpp.org to
+  determine consensus.
 
 Henceforth, straw polls should be divided into two categories:
 
@@ -236,7 +244,7 @@ Meetings would continue to be used to review and refine proposals and identify
 However, instead of focusing on making decisions at meetings, we would instead
   focus on identifying the decisions that need to be made.
 Some decision making would continue to occur at meetings, such as anything that
-  would qualify for a Guidance Straw Poll could be decided at a meeting.
+  would qualify for a [=direction straw poll=] could be decided at a meeting.
 But, major decisions would be asynchronously via electronic ballots.
 
 # Electronic Straw Poll Specification # {#electronic-straw-poll-specification}
@@ -314,7 +322,10 @@ Each poll shall be open for voting for at least two weeks.
 
 ## Poll Results ## {#poll-results}
 
-The votes and comments of all voters shall be visible to all other voters.
+The position and comments of all voters shall remain hidden, until the poll
+  closes.
+When the poll closes, the position and comments shall be visible and shall be
+  attributed to the voter who made them.
 
 Once a poll closes, the chair who created the poll shall distribute an
   interpretation of the poll results via the applicable mailing lists, minutes
