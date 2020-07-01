@@ -88,17 +88,19 @@ For forseeable future, the Standard C++ Committee will be conducting our
 The switch to remote work has required us to make changes to our review process
   (see [[P2145]]).
 
-We also need evolve our decision making process.
+We also need to evolve our decision making process.
+We propose that subgroup chairs should have the option to conduct subgroup straw
+  polls asynchronously through an electronic polling service on isocpp.org.
 
 ## Asynchronous & Synchronous Decision Making ## {#asynchronous-and-synchronous-decision-making}
 
 **Synchronous decision making** is a process for making decisions in which those
-  involved meet at an appointed time (face to face or via telecon), discuss
+  involved meet at an appointed time (face-to-face or via telecon), discuss
   the subject matter, and then vote on the decision.
 
 **Asynchronous decision making** is a process for making decisions in which an
   arbitrary deadline is set, those involved discuss the subject matter (email,
-  face to face, and/or telecon), and vote on the decision before the deadline.
+  face-to-face, and/or telecon), and vote on the decision before the deadline.
 
 One of the main motivations for synchronous decision making is that it attempts
   to ensures that those voting on a poll are informed on the subject matter, as
@@ -109,13 +111,13 @@ However, despite our best efforts, we cannot force participants to be engaged
 There are a number of downsides to synchronous decision making:
 
 * It limits stakeholder involvement to those who can present at the meeting.
-  For face to face meeting, this requires participants to travel to the meeting
+  For face-to-face meeting, this requires participants to travel to the meeting
     location.
   For telecon, it is almost impossible to avoid excluding some stakeholders due
     to time zone constraints.
 * It often forces stakeholers present at to choose which decisions they wish to
     be involved with.
-  At the last few face to face meetings, we have had seven concurrent subgroups
+  At the last few face-to-face meetings, we have had seven concurrent subgroups
     meeting for most of the week; it is almost impossible to avoid conflicts.
   For telecons, it is almost impossible to avoid excluding some stakeholers due
     to schedule constraints.
@@ -140,7 +142,7 @@ We believe that subgroup chairs should have access to asynchronous decision
 ## Prior Art ## {#prior-art}
 
 Historically, decision making within the Committee has been synchronous and has
-  occured at face to face meetings:
+  occured at face-to-face meetings:
 
 * **Straw Polls in Subgroups:** Subgroups have used informal polls during
     face-to-face meetings to decide whether to pursue proposals, provide
@@ -153,8 +155,8 @@ Historically, decision making within the Committee has been synchronous and has
     preceding the poll to not vote, but they are not disallowed from doing so.
   Decisions made in this way are not strictly binding; if new information or new
     perspectives are discovered, decisions can always be revisited.
-* **Plenary Polls:** More formal polls are taken during plenaries at face to
-    face meetings.
+* **Plenary Polls:** More formal polls are taken during plenaries at
+    face-to-face meetings.
   Only formal Committee members may participate in plenary polls.
   Plenary polls are used to approve changes to the working draft of the C++
     International Standard or a C++ Technical Specification, create or advance
@@ -176,7 +178,7 @@ The parent organization of the US National Body, INCITS, makes most decisions
   for a few weeks or months.
 
 Our sister organization, the Standard Fortran Committee, makes synchronous
-  decisions at face to face meetings.
+  decisions at face-to-face meetings.
 However, many of these decisions are considered preliminary and are followed up
   with an electronic ballot within the Committee.
 The below excerpt describes their process for one particular type of ballot:
@@ -269,7 +271,7 @@ An individual is eligible to obtain an isocpp.org account and participate in
 * A member of a National Body that participates in the Standard C++ Committee,
     including any employee of a company that is already a member of a National
     Body.
-* Any person who has attended a face to face meeting in the past.
+* Any person who has attended a face-to-face meeting in the past.
 * Any person who has authored a proposal to the subgroup.
 * Any individual who has been invited by the subgroup's chair.
 
@@ -360,7 +362,7 @@ We do not need to advance any Standard C++ work items to the next publication
 
 The US National Body, INCITS PL22.16, typically meets jointly with our
   international ISO Committee.
-INCITS PL22.16 is required to hold two meetings (either face to face or
+INCITS PL22.16 is required to hold two meetings (either face-to-face or
   virtual) a year and has only held one in 2020.
 Failure to attend these meetings can jeopardize voting membership.
 So, regardless of anything else we do, it will be necessary for a very large
