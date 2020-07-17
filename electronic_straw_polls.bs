@@ -14,7 +14,7 @@ Editor: Ben Craig — Library Evolution Vice Chair, NI, ben.craig@gmail.com
 Editor: Titus Winters — Library Evolution Chair Emeritus, Google, titus@google.com
 Editor: Jeffrey Yasskin — Library Evolution Chair Emeritus, Google, jyasskin@gmail.com
 Editor: Tom Honermann — SG16 Unicode and Text Processing (SG16) Chair, Synopsys, tom@honermann.net
-Editor: Inbal Levi — Israeli National Body, sinbal2l@gmail.com
+Editor: Inbal Levi — Israeli National Body Chair, sinbal2l@gmail.com
 Editor: Anton Polukhin — Russian National Body, antoshkka@gmail.com
 Editor: Corentin Jabot — French National Body, corentin.jabot@gmail.com
 !Source: <a href="https://github.com/brycelelbach/wg21_p2195_electronic_straw_polls/blob/main/electronic_straw_polls.bs">GitHub</a>
