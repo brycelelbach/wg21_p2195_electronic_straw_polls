@@ -417,7 +417,8 @@ The presence of an individual at a particular meeting does not imply that they
 
 The best we can do is what we have always done: encourage people to either
   familiarize themselves with the subject matter and discussion or choose to not
-  vote.
+  vote. It is important to expect and assume that all Committee participants
+  are acting professionally and in good-faith.
 
 Additionally, unlike at face-to-face meetings, chairs will have a list of
   everyone who voted in the poll and how they voted.
