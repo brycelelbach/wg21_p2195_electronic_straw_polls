@@ -9,7 +9,7 @@ Editor: Bryce Adelstein Lelbach — Library Evolution Chair, NVIDIA, brycelelbac
 Editor: JF Bastien — Language Evolution Chair, cxx@jfbastien.com
 URL: https://wg21.link/P2195R0
 Editor: Hal Finkel — Administrative Chair & US National Body Vice Chair, Argonne National Laboratory, hfinkel@anl.gov
-Editor: Ben Craig — Library Evolution Vice Chair, ben.craig@gmail.com
+Editor: Ben Craig — Library Evolution Vice Chair, NI, ben.craig@gmail.com
 Editor: Tom Honermann — SG16 Unicode and Text Processing (SG16) Chair, Synopsys, tom@honermann.net
 Editor: Inbal Levi — Israeli National Body, sinbal2l@gmail.com
 Editor: Anton Polukhin — Russian National Body, antoshkka@gmail.com
@@ -410,6 +410,17 @@ The presence of an individual at a particular meeting does not imply that they
 The best we can do is what we have always done: encourage people to either
   familiarize themselves with the subject matter and discussion or choose to not
   vote.
+
+Additionally, unlike at face-to-face meetings, chairs will have a list of
+  everyone who voted in the poll and how they voted.
+If any sort of voting irregularities appear, the added transparency will make
+  it very noticable.
+If such irregularities do occur, we can correct them and adjust our process.
+
+We make decisions by consensus, not majority.
+If the chair has reason to believe the results of the poll do not reflect the
+  consensus of the subgroup, the poll can be discarded.  that the results of the
+  poll are not valid,
 
 **Q: Will my vote and comments on a poll be publicly attributed to me outside of the committee?**
 
