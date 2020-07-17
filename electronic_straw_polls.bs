@@ -106,6 +106,9 @@ To have effective virtual meetings, we need to evolve our consensus building
 We therefore propose that subgroup chairs be able to conduct subgroup
   [=straw polls=] asynchronously through an electronic polling service on
   isocpp.org.
+  
+Importantly, this process proposal doesn't address what work should be
+  prioritized. That important task is already performed by [[P0592R4]].
 
 ## Consensus Building Mechanisms ## {#consensus-building-mechanisms}
 
