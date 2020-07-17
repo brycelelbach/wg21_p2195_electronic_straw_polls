@@ -382,8 +382,7 @@ In synchronous decision making, we discourage those who were not present for the
   discussion prior to a poll to not vote because they do not have time to
   familiarize themselves with the discussion before the poll is taken.
 In asynchronous decision making, those not present for a discussion will have
-  ample time (at least two weeks) to familiarize themselves with the discussion
-  and background.
+  ample time to familiarize themselves with the discussion and background.
 
 It is true that some people may choose to not familiarize themselves with the
   subject matter and prior discussions and still vote.
