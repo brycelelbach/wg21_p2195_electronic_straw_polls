@@ -420,15 +420,6 @@ There is no pressing need to hold a plenary meeting for the next few months.
 We do not need to advance any Standard C++ work items to the next publication
   stage in the immediate future.
 
-The US National Body, INCITS PL22.16, typically meets jointly with our
-  international ISO Committee.
-INCITS PL22.16 is required to hold two meetings (either face-to-face or
-  virtual) a year and has only held one in 2020.
-Failure to attend these meetings can jeopardize voting membership.
-So, regardless of anything else we do, it will be necessary for a very large
-  part of the Standard C++ Committee to hold a telecon before the end of the
-  year.
-
 In the future, if we decide to electronically ballot [=plenary polls=], there
   are already systems in place to handle electronic balloting of formal
   individual members within an ISO committee.
