@@ -91,7 +91,7 @@ div.newnumbered li:before {
 
 The Standard C++ Committee is starting to conduct more and more of our
   technical work in a virtual environment (see [[P2145R0]]), in part due to
-  the COVID19 pandemic.
+  the current global pandemic.
 This switch to remote work has required us to make changes to how we meet and
   collaborate.
 
