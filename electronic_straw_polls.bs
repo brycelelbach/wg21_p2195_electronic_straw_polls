@@ -5,11 +5,14 @@ Revision: 0
 Status: D
 Group: WG21
 Audience: WG21
-Editor: Bryce Adelstein Lelbach — Library Evolution Chair, NVIDIA, brycelelbach@gmail.com
+Editor: Bryce Adelstein Lelbach (he/him/his) — Library Evolution Chair, NVIDIA, brycelelbach@gmail.com
 Editor: JF Bastien — Language Evolution Chair, cxx@jfbastien.com
 URL: https://wg21.link/P2195R0
 Editor: Hal Finkel — Administrative Chair & US National Body Vice Chair, Argonne National Laboratory, hfinkel@anl.gov
+Editor: Fabio Fracassi — Library Evolution Vice Chair, CODE University of Applied Sciences, f.fracassi@gmx.net
 Editor: Ben Craig — Library Evolution Vice Chair, NI, ben.craig@gmail.com
+Editor: Titus Winters — Library Evolution Chair Emeritus, Google, titus@google.com		
+Editor: Jeffrey Yasskin — Library Evolution Chair Emeritus, Google, jyasskin@gmail.com
 Editor: Tom Honermann — SG16 Unicode and Text Processing (SG16) Chair, Synopsys, tom@honermann.net
 Editor: Inbal Levi — Israeli National Body, sinbal2l@gmail.com
 Editor: Anton Polukhin — Russian National Body, antoshkka@gmail.com
