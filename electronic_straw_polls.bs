@@ -5,14 +5,11 @@ Revision: 0
 Status: D
 Group: WG21
 Audience: WG21
-Editor: Bryce Adelstein Lelbach (he/him/his) — Library Evolution Chair, NVIDIA, brycelelbach@gmail.com
+Editor: Bryce Adelstein Lelbach — Library Evolution Chair, NVIDIA, brycelelbach@gmail.com
 Editor: JF Bastien — Language Evolution Chair, cxx@jfbastien.com
 URL: https://wg21.link/P2195R0
 Editor: Hal Finkel — Administrative Chair & US National Body Vice Chair, Argonne National Laboratory, hfinkel@anl.gov
-Editor: Fabio Fracassi — Library Evolution Vice Chair, CODE University of Applied Sciences, f.fracassi@gmx.net
 Editor: Ben Craig — Library Evolution Vice Chair, NI, ben.craig@gmail.com
-Editor: Titus Winters — Library Evolution Chair Emeritus, Google, titus@google.com
-Editor: Jeffrey Yasskin — Library Evolution Chair Emeritus, Google, jyasskin@gmail.com
 Editor: Tom Honermann — SG16 Unicode and Text Processing (SG16) Chair, Synopsys, tom@honermann.net
 Editor: Inbal Levi — Israeli National Body, sinbal2l@gmail.com
 Editor: Anton Polukhin — Russian National Body, antoshkka@gmail.com
@@ -105,7 +102,8 @@ To have effective virtual meetings, we need to evolve our consensus building
 
 We therefore propose that subgroup chairs be able to conduct subgroup
   [=straw polls=] asynchronously through an electronic polling service on
-  isocpp.org.
+  isocpp.org. We separate these into [=Direction Straw Polls=] and
+  [=Decision Straw Polls=].
 
 ## Consensus Building Mechanisms ## {#consensus-building-mechanisms}
 
@@ -231,7 +229,8 @@ At meetings, we review proposals, identifying where additional work is needed
 
 We propose a new model, where the purpose of meetings is to drive decision
   making, but not require that the decision making happen at the meetings
-  themselves, especially for virtual meetings of our primary four groups.
+  themselves, especially for virtual meetings of our primary four groups
+  (core language and library, language and library evolution).
 Meetings would continue to be used to review and refine proposals and identify
   open questions.
 However, instead of focusing on making decisions at meetings, we would instead
@@ -243,29 +242,33 @@ We propose that subgroup chairs should have the option to conduct subgroup
 
 Henceforth, [=straw polls=] should be divided into two categories:
 
-* <dfn>Direction Straw Polls</dfn>: These polls are taken to suggest the
-      direction that a proposal should pursue in the next revision that comes
-      before the subgroup taking the poll.
+* <dfn>Direction Straw Polls</dfn>: These polls are taken to reaffirm a proposal's
+      direction, or suggest direction changes that a proposal should pursue in the
+      next revision that comes before the subgroup taking the poll.
     These polls will usually be taken on younger proposals, where there are still
       many open questions and areas for additional investigation.
     Direction [=straw polls=] can only be taken on proposals that will return to
       the same subgroup before proceeding further.
+    Dissent should be recorded, so that authors know what work needs to be performed
+      to increase consensus in the next revision of their proposal.
     The results of these polls can always be revisited if new information or new
       perspectives are discovered.
 * <dfn>Decision Straw Polls</dfn>: These polls are taken to make decisions
       regarding a proposal once the subgroup is confident that all applicable
       and relevant aspects of the decision have been discussed.
     These polls will typically be taken on proposals that have been in the
-      subgroup for a few revisions.
+      subgroup for a few revisions, but can also be taken when a proposal is an
+      obvious one to approve, or when a proposal clearly has no chance of gaining
+      consensus and should not be pursued further.
     Decision [=straw polls=] may forward proposals to other subgroups or to
-      plenary.
+      plenary, as well as halt the progress of a proposal.
     The results of these polls can always be revisited if new information or new
       perspectives are discovered.
 
 We propose that the following guidelines should be followed when determining
   whether a poll should be taken synchronously or asynchronously:
 
-* In Library Evolution, Library, Evolution, or Core, at the chair's discretion
+* In Evolution, Core, Library Evolution, or Library, at the chair's discretion
     * [=decision straw polls=] shall be conducted either:
         * synchronously at face-to-face meetings, but not virtual meetings,
               (status quo), or
@@ -287,17 +290,20 @@ Electronic [=straw polls=] shall be conducted through a service on isocpp.org.
 The service shall support five-way polls.
 
 A five-way poll consists of an arbitrary statement, determined by the applicable
-  subgroup chair.
+  subgroup chair. The polarity of the poll shall be that voting "in favor" means
+  changing the current status-quo.
 Poll statements shall not be changed after the poll has begun.
 
-Polls should provide links to any papers applicable to the polls, relevant
-  minutes for those papers, prior polls, and the GitHub issue for said papers.
+Polls should provide links to any papers and revision number applicable to the
+  polls, relevant minutes for those papers, prior polls, and the
+  <a href="https://github.com/cplusplus/papers/issues">GitHub issue</a> for
+  said papers.
 
 In a five-way poll, voters may select a stance on the statement being polled
   from these five options:
 
-* Strongly For.
-* Weakly For.
+* Strongly Favor.
+* Weakly Favor.
 * Neutral.
 * Weakly Against.
 * Strongly Against.
@@ -374,7 +380,8 @@ A few months after we begin electronic polling, we should gather feedback and
 The position and comments of all voters shall remain hidden, until the poll
   closes.
 When the poll closes, the position and comments shall be visible to all
-  committee members and shall be attributed to the voter who made them.
+  committee members (not the general public) and shall be attributed to
+  the voter who made them.
 
 Once a poll closes, the chair who created the poll shall receive an email
   notifying them that the poll is over.
@@ -389,7 +396,7 @@ Poll statements, vote counts, and the chair's interpretation of the results
 
 # FAQ # {#faq}
 
-<b>Q: Do you think we should stop having face-to-face meetings entirely?</b>
+**Q: Do you think we should stop having face-to-face meetings entirely?**
 
 No.
 
@@ -399,12 +406,12 @@ Face-to-face meetings have value and we believe face-to-face meetings should
   be held in the future.
 We do believe that enabling remote participation in such meetings is important.
 
-<b>Q: Won't electronic [=straw polls=] allow people who weren't involved in discussion at a meeting to vote?</b>
+**Q: Won't electronic [=straw polls=] allow people who weren't involved in discussion at a meeting to vote?**
 
 Yes.
 
 In synchronous decision making, we discourage those who were not present for the
-  discussion prior to a poll from voting because they do not have time to
+  discussion prior to a poll to not vote because they do not have time to
   familiarize themselves with the discussion before the poll is taken.
 In asynchronous decision making, those not present for a discussion will have
   ample time to familiarize themselves with the discussion and background.
@@ -430,7 +437,7 @@ If the chair has reason to believe the results of the poll do not reflect the
   consensus of the subgroup, the poll can be discarded.  that the results of the
   poll are not valid,
 
-<b>Q: Will my vote and comments on a poll be publicly attributed to me outside of the committee?</b>
+**Q: Will my vote and comments on a poll be publicly attributed to me outside of the committee?**
 
 No, unless you choose to make them public yourself.
 
@@ -442,7 +449,7 @@ Poll results will follow the same rules we use for minutes today:
 * Attribution of votes or comments to specific individuals, companies, or
     National Bodies without their express permission is forbidden.
 
-<b>Q: What about plenary and [=plenary polls=]?</b>
+**Q: What about plenary and [=plenary polls=]?**
 
 This proposal does not suggest any changes to our plenary process at this time.
 We believe incremental change is safer than drastic change.
