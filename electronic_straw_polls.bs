@@ -269,6 +269,9 @@ A five-way poll consists of an arbitrary statement, determined by the applicable
   subgroup chair.
 Poll statements shall not be changed after the poll has begun.
 
+Polls should provide links to any papers applicable to the polls and link to
+  the GitHub issue for said papers.
+
 In a five-way poll, voters may select a stance on the statement being polled
   from these five options:
 
