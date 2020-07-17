@@ -110,7 +110,7 @@ We propose that subgroup chairs should have the option to conduct subgroup
   before the deadline.
 
 One of the main motivations for [=synchronous consensus building=] making is that
-  it attempts to ensures that those voting on a poll are informed on the subject
+  it attempts to ensure that those voting on a poll are informed on the subject
   matter, as they were present for the discussion of the subject matter of the
   poll.
 However, despite our best efforts, we cannot force participants to be engaged
@@ -301,15 +301,12 @@ An individual is eligible to obtain an isocpp.org account and participate in
   a subgroup's electronic [=straw polls=] if they are any of the following:
 
 * A member of a National Body that participates in the Standard C++ Committee,
-    including any employee of a company that is already a member of a National
-    Body.
-* Any person who has attended a face-to-face meeting in the past.
-* Any person who has authored a proposal to the subgroup.
-* Any individual who has been invited by the subgroup's chair.
+    e.g. someone who is in the ISO Global Directory.
+* Any person who has attended one of the past three face-to-face meetings.
 
 ## Voting ## {#voting}
 
-Each voter may participant once on each poll.
+Each voter may participate once on each poll.
 
 Voters shall leave a comment in addition to their vote.
 
