@@ -192,8 +192,8 @@ The parent organization of the US National Body, INCITS,
   electronic ballots or calls for comments which are open for a few weeks or
   months.
 
-Our sister organization, the Standard Fortran Committee, makes synchronous
-  decisions at face-to-face meetings.
+Another ISO programming language committee, the Standard Fortran Committee,
+  makes synchronous decisions at face-to-face meetings.
 However, many of these decisions are considered preliminary and are followed up
   with an electronic ballot within the Committee to determine consensus.
 The below excerpt describes their process for one particular type of ballot:
