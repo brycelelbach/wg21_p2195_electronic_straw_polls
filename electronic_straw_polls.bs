@@ -360,17 +360,19 @@ A few months after we begin electronic polling, we should gather feedback and
 
 The position and comments of all voters shall remain hidden, until the poll
   closes.
-When the poll closes, the position and comments shall be visible and shall be
-  attributed to the voter who made them.
+When the poll closes, the position and comments shall be visible to all
+  committee members and shall be attributed to the voter who made them.
 
-Once a poll closes, the chair who created the poll shall distribute an
-  interpretation of the poll results via the applicable mailing lists, minutes
-  pages, and/or GitHub issues.
+Once a poll closes, the chair who created the poll shall receive an email
+  notifying them that the poll is over.
+Then, the chair who created the poll shall distribute their interpretation of
+  what consensus is based on the poll results via the applicable mailing lists,
+  minutes pages, and/or GitHub issues.
 
-No one shall share the identities and positions of voters with non-voters
-  without the explicit permission of said voters.
+No one shall share the identities and positions of voters with those who are
+  not eligible voters without the explicit permission of said voters.
 Poll statements, vote counts, and the chair's interpretation of the results
-  may be shared externally.
+  may be shared with anyone.
 
 # FAQ # {#faq}
 
@@ -393,6 +395,18 @@ The presence of an individual at a particular meeting does not imply that they
 The best we can do is what we have always done: encourage people to either
   familiarize themselves with the subject matter and discussion or choose to not
   vote.
+
+**Q: Will my vote and comments on a poll be publicly attributed to me outside of the committee?**
+
+No, unless you choose to make them public yourself.
+
+Poll results will follow the same rules we use for minutes today:
+
+* The poll statement, numeric results, and chair's interpretation of consensus
+    of a poll can be made publicly available.
+* Anonymized summaries of comments can be made publicly available.
+* Attribution of votes or comments to specific individuals, companies, or
+    National Bodies without their express permission is forbidden.
 
 **Q: What about plenary and [=plenary polls=]?**
 
