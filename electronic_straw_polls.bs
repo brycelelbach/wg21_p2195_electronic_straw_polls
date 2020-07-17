@@ -11,6 +11,7 @@ URL: https://wg21.link/P2195R0
 Editor: Hal Finkel — Administrative Chair & US National Body Vice Chair, Argonne National Laboratory, hfinkel@anl.gov
 Editor: Ben Craig — Library Evolution Vice Chair, ben.craig@gmail.com
 !Source: <a href="https://github.com/brycelelbach/wg21_p2195_electronic_straw_polls/blob/main/electronic_straw_polls.bs">GitHub</a>
+Editor: Inbal Levi — Israeli National Body, sinbal2l@gmail.com
 Issue Tracking: GitHub https://github.com/brycelelbach/wg21_p2195_electronic_straw_polls/issues
 Metadata Order: Author, This Version, Source, Issue Tracking, Project, Audience
 Markup Shorthands: markdown yes
@@ -139,10 +140,13 @@ There are a number of downsides to [=synchronous consensus building=]:
       investigate open questions they may have.
 
 [=Asynchronous consensus building=] addresses these shortcomings.
-It allows more stakeholders to be involved in consensus building.
+It allows more stakeholders to be involved in consensus building, equalizing
+  the field by removing barriers to participation.
 It removes the pressure and hastiness of trying to determine consensus before
   the end of a meeting, giving stakeholders more time to contemplate and decide
   their position.
+This ensures that all opinions are ensured equally in the consensus building
+  process, resulting in a better standard.
 
 We believe that subgroup chairs should have access to
   [=asynchronous consensus building=] mechanisms in addition to the traditional
@@ -293,10 +297,13 @@ An individual is eligible to obtain an isocpp.org account and participate in
 
 Each voter may participant once on each poll.
 
-Voters shall be able to leave a comment in addition to their vote.
+Voters shall leave a comment in addition to their vote.
 
 Each voter may change their vote and comment at any time prior to the closing of
   a vote.
+
+Each voter should be prompted to confirm that they have read the proposal and
+  are familiar with the topic.
 
 ## Creation of Polls ## {#creation-of-polls}
 
