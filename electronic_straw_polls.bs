@@ -99,17 +99,20 @@ This switch to remote work has required us to make changes to how we meet and
   collaborate.
 
 To have effective virtual meetings, we need to evolve our consensus building
-  process, because it has traditionally been in-person only. We are unlikely
-  to meet in-person again until it is possible to do so without putting peoples'
-  lives at risk.
+  process, because it has traditionally been in-person only.
+We are unlikely to meet in-person again until it is possible to do so without
+  putting peoples' lives at risk.
 
 We therefore propose that subgroup chairs be able to conduct subgroup
   [=straw polls=] asynchronously through an electronic polling service on
-  isocpp.org. We separate these into [=Direction Straw Polls=] and
+  isocpp.org.
+We separate these into [=Direction Straw Polls=] and
   [=Decision Straw Polls=].
 
-Importantly, this process proposal doesn't address what work should be
-  prioritized. That important task is already performed by [[P0592R4]].
+This process proposal doesn't address what work should be prioritized or
+  the process by which a proposal moves through the committee.
+These important tasks are performed by [[P0592R4]] (prioritization) and
+  [[P2138R2]] (proposal flow).
 
 ## Consensus Building Mechanisms ## {#consensus-building-mechanisms}
 
