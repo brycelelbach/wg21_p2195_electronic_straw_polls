@@ -387,7 +387,7 @@ Poll statements, vote counts, and the chair's interpretation of the results
 
 # FAQ # {#faq}
 
-**Q: Do you think we should stop having face-to-face meetings entirely?**
+<b>Q: Do you think we should stop having face-to-face meetings entirely?</b>
 
 No.
 
@@ -397,12 +397,12 @@ Face-to-face meetings have value and we believe face-to-face meetings should
   be held in the future.
 We do believe that enabling remote participation in such meetings is important.
 
-**Q: Won't electronic [=straw polls=] allow people who weren't involved in discussion at a meeting to vote?**
+<b>Q: Won't electronic [=straw polls=] allow people who weren't involved in discussion at a meeting to vote?</b>
 
 Yes.
 
 In synchronous decision making, we discourage those who were not present for the
-  discussion prior to a poll to not vote because they do not have time to
+  discussion prior to a poll from voting because they do not have time to
   familiarize themselves with the discussion before the poll is taken.
 In asynchronous decision making, those not present for a discussion will have
   ample time to familiarize themselves with the discussion and background.
@@ -428,7 +428,7 @@ If the chair has reason to believe the results of the poll do not reflect the
   consensus of the subgroup, the poll can be discarded.  that the results of the
   poll are not valid,
 
-**Q: Will my vote and comments on a poll be publicly attributed to me outside of the committee?**
+<b>Q: Will my vote and comments on a poll be publicly attributed to me outside of the committee?</b>
 
 No, unless you choose to make them public yourself.
 
@@ -440,7 +440,7 @@ Poll results will follow the same rules we use for minutes today:
 * Attribution of votes or comments to specific individuals, companies, or
     National Bodies without their express permission is forbidden.
 
-**Q: What about plenary and [=plenary polls=]?**
+<b>Q: What about plenary and [=plenary polls=]?</b>
 
 This proposal does not suggest any changes to our plenary process at this time.
 We believe incremental change is safer than drastic change.
