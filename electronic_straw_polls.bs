@@ -317,6 +317,10 @@ Each voter may change their vote and comment at any time prior to the closing of
 Each voter should be prompted to confirm that they have read the proposal and
   are familiar with the topic.
 
+The voting system shall follow best practices for accessibility.
+If any voter is unable to vote using the voting system for whatever reason, they
+  may submit their vote by emailing the chair who created the poll.
+
 ## Creation of Polls ## {#creation-of-polls}
 
 Subgroup chairs may create polls.
