@@ -328,8 +328,9 @@ The subject of a poll shall be discussed either at a meeting or via the
 
 Chairs shall notify voters 48 hours prior to the start of a poll and distribute
   a draft of the poll statement for feedback.
-This 48 hour window should be subject to change based on field experience; a few
-  months after we begin electronic polling, we should gather feedback and
+The 48 hour notification period  should be subject to change based on field
+  experience.
+A few months after we begin electronic polling, we should gather feedback and
   determine if the notification period needs to be increased or decreased.
 
 ## Poll Notifications ## {#poll-notifications}
@@ -344,11 +345,15 @@ Once a poll has started, chairs shall notify the applicable mailing lists and
 At the start of any subgroup meeting, if that subgroup has open polls, the chair
   shall notify the group of said polls.
 
-## Poll Deadlines ## {#poll-deadlines}
+## Poll Duration ## {#poll-duration}
 
-Each poll shall be open for voting for at least two weeks.
-This two week window should be subject to change based on field experience; a few
-  months after we begin electronic polling, we should gather feedback and
+The subgroup chair creating a poll shall be able to set a deadline date for the
+  poll.
+The deadline should be in Anywhere on Earth (AoE) time (UTC-12).
+The suggested duration is 2 weeks.
+The 2 week duration guideline should be subject to change based on field
+  experience.
+A few months after we begin electronic polling, we should gather feedback and
   determine if the polling period needs to be increased or decreased.
 
 ## Poll Results ## {#poll-results}
