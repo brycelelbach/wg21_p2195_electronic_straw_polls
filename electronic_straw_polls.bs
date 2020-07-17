@@ -442,10 +442,6 @@ We suggest that the Standard C++ Committee start pursuing electronic
   [=straw polls=] for subgroups and assess the effectiveness and ramifications
   of this change in a few months before considering further process changes.
 
-There is no pressing need to hold a plenary meeting for the next few months.
-We do not need to advance any Standard C++ work items to the next publication
-  stage in the immediate future.
-
 In the future, if we decide to electronically ballot [=plenary polls=], there
   are already systems in place to handle electronic balloting of formal
   individual members within an ISO committee.
