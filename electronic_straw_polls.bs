@@ -87,15 +87,20 @@ div.newnumbered li:before {
 }
 </style>
 
-# Motivation # {#motivation}
+# Motivation and Summary # {#motivation-summary}
 
 The Standard C++ Committee is starting to conduct more and more of our
-  technical work in a virtual environment (see [[P2145R0]]).
+  technical work in a virtual environment (see [[P2145R0]]), in part due to
+  the COVID19 pandemic.
 This switch to remote work has required us to make changes to how we meet and
   collaborate.
 
-We also need to evolve our consensus building process.
-We propose that subgroup chairs should have the option to conduct subgroup
+To have effective virtual meetings, we need to evolve our consensus building
+  process, because it has traditionally been in-person only. We are unlikely
+  to meet in-person again until it is possible to do so without putting peoples'
+  lives at risk.
+
+We therefore propose that subgroup chairs be able to conduct subgroup
   [=straw polls=] asynchronously through an electronic polling service on
   isocpp.org.
 
@@ -441,6 +446,10 @@ We believe incremental change is safer than drastic change.
 We suggest that the Standard C++ Committee start pursuing electronic
   [=straw polls=] for subgroups and assess the effectiveness and ramifications
   of this change in a few months before considering further process changes.
+
+There is no pressing need to hold a plenary meeting for the next few months.
+We do not need to advance any Standard C++ work items to the next publication
+  stage in the immediate future.
 
 In the future, if we decide to electronically ballot [=plenary polls=], there
   are already systems in place to handle electronic balloting of formal
