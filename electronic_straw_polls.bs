@@ -376,6 +376,16 @@ Poll statements, vote counts, and the chair's interpretation of the results
 
 # FAQ # {#faq}
 
+**Q: Do you think we should stop having face-to-face meetings entirely?**
+
+No.
+
+Developing processes for collaborating remotely and electronically does not mean
+  ceasing our face-to-face collaborations.
+Face-to-face meetings have value and we believe face-to-face meetings should
+  be held in the future.
+We do believe that enabling remote participation in such meetings is important.
+
 **Q: Won't electronic [=straw polls=] allow people who weren't involved in discussion at a meeting to vote?**
 
 Yes.
