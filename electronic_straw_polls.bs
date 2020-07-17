@@ -213,6 +213,20 @@ The below excerpt describes their process for one particular type of ballot:
 
 # Proposed Changes # {#proposed-changes}
 
+Today, the purpose of meetings is to make decisions.
+Work on proposals is largely done outside of meetings.
+At meetings, we review proposals, identifying where additional work is needed
+  before a decision is made, and, when sufficient information is available,
+  making decisions about how and if a proposal should proceed.
+
+We propose a new model, where the purpose of meetings is to drive decision
+  making, but not require that the decision making happen at the meetings
+  themselves, especially for virtual meetings of our primary four groups.
+Meetings would continue to be used to review and refine proposals and identify
+  open questions.
+However, instead of focusing on making decisions at meetings, we would instead
+  focus on identifying the decisions that need to be made.
+
 We propose that subgroup chairs should have the option to conduct subgroup
   [=straw polls=] asynchronously through an electronic polling service on
   isocpp.org to determine consensus.
@@ -228,8 +242,6 @@ Henceforth, [=straw polls=] should be divided into two categories:
       the same subgroup before proceeding further.
     The results of these polls can always be revisited if new information or new
       perspectives are discovered.
-    Direction [=straw polls=] may be taken either synchronously at meetings or
-      asynchronously via electronic ballot.
 * <dfn>Decision Straw Polls</dfn>: These polls are taken to make decisions
       regarding a proposal once the subgroup is confident that all applicable
       and relevant aspects of the decision have been discussed.
@@ -239,24 +251,22 @@ Henceforth, [=straw polls=] should be divided into two categories:
       plenary.
     The results of these polls can always be revisited if new information or new
       perspectives are discovered.
-    Decision [=straw polls=] shall be taken asynchronously via electronic ballot.
 
-Today, the purpose of meetings is to make decisions.
-Work on proposals is largely done outside of meetings.
-At meetings, we review proposals, identifying where additional work is needed
-  before a decision is made, and, when sufficient information is available,
-  making decisions about how and if a proposal should proceed.
+We propose that the following guidelines should be followed when determining
+  whether a poll should be taken synchronously or asynchronously:
 
-We propose a new model, where the purpose of meetings is to drive decision
-  making.
-Meetings would continue to be used to review and refine proposals and identify
-  open questions.
-However, instead of focusing on making decisions at meetings, we would instead
-  focus on identifying the decisions that need to be made.
-Some decision making would continue to occur at meetings, such as anything that
-  would qualify for a [=direction straw poll=] could be decided at a meeting.
-But, major decisions requiring a [=decision straw poll=] would be made
-  asynchronously via electronic ballots.
+* In Library Evolution, Library, Evolution, or Core, at the chair's discretion
+    * [=decision straw polls=] shall be conducted either:
+        * synchronously at face-to-face meetings, but not virtual meetings,
+              (status quo), or
+        * asynchronously via electronic straw poll.
+    * [=direction straw polls=] shall be conducted either:
+        * synchronously at face-to-face or virtual meetings (status quo), or
+        * asynchronously via electronic straw poll.
+* In study groups, at the chair's discretion both [=direction straw polls=] and
+      [=decision straw polls=] shall be conducted either:
+    * synchronously at face-to-face or virtual meetings (status quo), or
+    * asynchronously via electronic straw poll.
 
 # Electronic Straw Poll Specification # {#electronic-straw-poll-specification}
 
