@@ -108,6 +108,9 @@ We therefore propose that subgroup chairs be able to conduct subgroup
   isocpp.org. We separate these into [=Direction Straw Polls=] and
   [=Decision Straw Polls=].
 
+Importantly, this process proposal doesn't address what work should be
+  prioritized. That important task is already performed by [[P0592R4]].
+
 ## Consensus Building Mechanisms ## {#consensus-building-mechanisms}
 
 <dfn>Synchronous Consensus Building</dfn> is a process for building consensus
