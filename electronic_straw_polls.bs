@@ -9,6 +9,7 @@ Editor: Bryce Adelstein Lelbach — Library Evolution Chair, NVIDIA, brycelelbac
 Editor: JF Bastien — Language Evolution Chair, cxx@jfbastien.com
 URL: https://wg21.link/P2195R0
 Editor: Hal Finkel — Administrative Chair & US National Body Vice Chair, Argonne National Laboratory, hfinkel@anl.gov
+Editor: Fabio Fracassi — Library Evolution Vice Chair, CODE University of Applied Sciences, f.fracassi@gmx.net
 Editor: Ben Craig — Library Evolution Vice Chair, NI, ben.craig@gmail.com
 Editor: Tom Honermann — SG16 Unicode and Text Processing (SG16) Chair, Synopsys, tom@honermann.net
 Editor: Inbal Levi — Israeli National Body, sinbal2l@gmail.com
