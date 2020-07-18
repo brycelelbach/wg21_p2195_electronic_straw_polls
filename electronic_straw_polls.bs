@@ -277,7 +277,7 @@ Henceforth, [=straw polls=] should be divided into two categories:
 We propose that the following guidelines should be followed when determining
   whether a poll should be taken synchronously or asynchronously:
 
-* In Evolution, Core, Library Evolution, or Library, at the chair's discretion
+* In Evolution and Library Evolution, at the chair's discretion,
     * [=decision straw polls=] shall be conducted either:
         * synchronously at face-to-face meetings, but not virtual meetings,
               (status quo), or
