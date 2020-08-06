@@ -134,6 +134,21 @@ In short, we propose:
 In a way, this is a mini-train model embedded into C++'s larger 3-year release
 train schedule.
 
+<svg width="100%">
+  <rect width="50%" height="2em" x="00%" y="0em" fill="white" stroke="red" /><text x="25%" y="1em" dominant-baseline="middle" text-anchor="middle">🚂 C++Current</text>
+  <rect width="50%" height="2em" x="50%" y="0em" fill="white" stroke="red" /><text x="75%" y="1em" dominant-baseline="middle" text-anchor="middle">🚂 C++Next</text>
+
+  <rect width="12.5%" height="2em" x="00.0%" y="3em" fill="white" stroke="blue" /><text x="06.25%" y="4em" dominant-baseline="middle" text-anchor="middle">🚄 ¼</text>
+  <rect width="12.5%" height="2em" x="12.5%" y="3em" fill="white" stroke="blue" /><text x="18.75%" y="4em" dominant-baseline="middle" text-anchor="middle">🚄 ¼</text>
+  <rect width="12.5%" height="2em" x="25.0%" y="3em" fill="white" stroke="blue" /><text x="31.25%" y="4em" dominant-baseline="middle" text-anchor="middle">🚄 ¼</text>
+  <rect width="12.5%" height="2em" x="37.5%" y="3em" fill="white" stroke="blue" /><text x="43.75%" y="4em" dominant-baseline="middle" text-anchor="middle">🚄 ¼</text>
+
+  <rect width="12.5%" height="2em" x="50.0%" y="3em" fill="white" stroke="blue" /><text x="56.25%" y="4em" dominant-baseline="middle" text-anchor="middle">🚄 ¼</text>
+  <rect width="12.5%" height="2em" x="62.5%" y="3em" fill="white" stroke="blue" /><text x="68.75%" y="4em" dominant-baseline="middle" text-anchor="middle">🚄 ¼</text>
+  <rect width="12.5%" height="2em" x="75.0%" y="3em" fill="white" stroke="blue" /><text x="81.25%" y="4em" dominant-baseline="middle" text-anchor="middle">🚄 ¼</text>
+  <rect width="12.5%" height="2em" x="87.5%" y="3em" fill="white" stroke="blue" /><text x="93.75%" y="4em" dominant-baseline="middle" text-anchor="middle">🚄 ¼</text>
+</svg>
+
 ## Consensus Building Mechanisms ## {#consensus-building-mechanisms}
 
 <dfn>Synchronous Consensus Building</dfn> is a process for building consensus
