@@ -6,13 +6,14 @@ Status: D
 Group: WG21
 Audience: WG21
 Editor: Bryce Adelstein Lelbach (he/him/his) — Library Evolution Chair, NVIDIA, brycelelbach@gmail.com
-Editor: JF Bastien — Language Evolution Chair, cxx@jfbastien.com
+Editor: JF Bastien — Evolution Chair, cxx@jfbastien.com
 URL: https://wg21.link/P2195R0
 Editor: Hal Finkel — Administrative Chair & US National Body Vice Chair, Argonne National Laboratory, hfinkel@anl.gov
 Editor: Fabio Fracassi — Library Evolution Vice Chair, CODE University of Applied Sciences, f.fracassi@gmx.net
 Editor: Ben Craig — Library Evolution Vice Chair, NI, ben.craig@gmail.com
 Editor: Titus Winters — Library Evolution Chair Emeritus, Google, titus@google.com
 Editor: Jeffrey Yasskin — Library Evolution Chair Emeritus, Google, jyasskin@gmail.com
+Editor: Ville Voutilainen — Evolution Chair Emeritus and Finnish National Body, The Qt Company, ville.voutilainen@gmail.com
 Editor: Tom Honermann — SG16 Unicode and Text Processing (SG16) Chair, Synopsys, tom@honermann.net
 Editor: Inbal Levi — Israeli National Body Chair, sinbal2l@gmail.com
 Editor: Antony Polukhin — Russian National Body, antoshkka@gmail.com
@@ -103,9 +104,9 @@ To have effective virtual meetings, we need to evolve our consensus building
 We are unlikely to meet in-person again until it is possible to do so without
   putting peoples' lives at risk.
 
-We therefore propose that subgroup chairs be able to conduct subgroup
-  [=straw polls=] asynchronously through an electronic polling service on
-  isocpp.org.
+We therefore propose that language and library evolution group chairs be able to
+  conduct subgroup [=straw polls=] asynchronously through an electronic polling
+  service on isocpp.org.
 We separate these into [=Direction Straw Polls=] and
   [=Decision Straw Polls=].
 
@@ -113,6 +114,25 @@ This process proposal doesn't address what work should be prioritized or
   the process by which a proposal moves through the committee.
 These important tasks are performed by [[P0592R4]] (prioritization) and
   [[P2138R2]] (proposal flow).
+
+We focus on evolution groups because we observe that, so far, subgroup and the
+  core groups have been able to advance work without too many issues. In large
+  parts, this is because subgroups are focused interest groups who forward to
+  evolutions groups. Similarly, core groups have more focus and little to no
+  leeway in design.
+
+## Proposal Summary ## {#tldr}
+
+In short, we propose:
+
+* Continue with virtual teleconferences, which hone design and provide non-binding design direction.
+* Hold quarterly asynchronous ballots, through a website on isocpp.org.
+* Anything that is judged ready for binding ballot is put on the quarlerly ballot.
+* Ballots can be added to the quarterly list up to a month before the ballot closes.
+* A teleconference is held one week before ballots close to hold technical discussions which haven't been addressed over email.
+
+In a way, this is a mini-train model embedded into C++'s larger 3-year release
+train schedule.
 
 ## Consensus Building Mechanisms ## {#consensus-building-mechanisms}
 
@@ -238,14 +258,13 @@ At meetings, we review proposals, identifying where additional work is needed
 
 We propose a new model, where the purpose of meetings is to drive decision
   making, but not require that the decision making happen at the meetings
-  themselves, especially for virtual meetings of our primary four groups
-  (core language and library, language and library evolution).
+  themselves.
 Meetings would continue to be used to review and refine proposals and identify
   open questions.
 However, instead of focusing on making decisions at meetings, we would instead
   focus on identifying the decisions that need to be made.
 
-We propose that subgroup chairs should have the option to conduct subgroup
+We propose that language and library evolution chairs have the option to conduct
   [=straw polls=] asynchronously through an electronic polling service on
   isocpp.org to determine consensus.
 
@@ -277,16 +296,13 @@ Henceforth, [=straw polls=] should be divided into two categories:
 We propose that the following guidelines should be followed when determining
   whether a poll should be taken synchronously or asynchronously:
 
-* In Evolution and Library Evolution, at the chair's discretion,
-    * [=decision straw polls=] shall be conducted either:
-        * synchronously at face-to-face meetings, but not virtual meetings,
-              (status quo), or
-        * asynchronously via electronic straw poll.
-    * [=direction straw polls=] shall be conducted either:
-        * synchronously at face-to-face or virtual meetings (status quo), or
-        * asynchronously via electronic straw poll.
-* In study groups, at the chair's discretion both [=direction straw polls=] and
-      [=decision straw polls=] shall be conducted either:
+In Evolution and Library Evolution, at the chair's discretion,
+
+* [=decision straw polls=] shall be conducted either:
+    * synchronously at face-to-face meetings, but not virtual meetings,
+          (status quo), or
+    * asynchronously via electronic straw poll.
+* [=direction straw polls=] shall be conducted either:
     * synchronously at face-to-face or virtual meetings (status quo), or
     * asynchronously via electronic straw poll.
 
@@ -299,13 +315,13 @@ Electronic [=straw polls=] shall be conducted through a service on isocpp.org.
 The service shall support five-way polls.
 
 A five-way poll consists of an arbitrary statement, determined by the applicable
-  subgroup chair. The polarity of the poll shall be that voting "in favor" means
-  changing the current status-quo.
+  chair. The polarity of the poll shall be that voting "in favor" means changing
+  the current status-quo.
 Poll statements shall not be changed after the poll has begun.
 
-Polls should provide links to any papers and revision number applicable to the
-  polls, relevant minutes for those papers, prior polls, and the
-  <a href="https://github.com/cplusplus/papers/issues">GitHub issue</a> for
+Polls should provide links to relevant published P- or N-numbered papers
+  applicable to the polls, relevant minutes for those papers, prior polls, and
+  the <a href="https://github.com/cplusplus/papers/issues">GitHub issue</a> for
   said papers.
 
 In a five-way poll, voters may select a stance on the statement being polled
@@ -347,19 +363,19 @@ If any voter is unable to vote using the voting system for whatever reason, they
 
 ## Creation of Polls ## {#creation-of-polls}
 
-Subgroup chairs may create polls.
+Chairs may create polls.
 
 ## Discussion Prior to Polling ## {#discussion-prior-to-polling}
 
 The subject of a poll shall be discussed either at a meeting or via the
   applicable mailing list prior to the start of a poll.
 
-Chairs shall notify voters 48 hours prior to the start of a poll and distribute
-  a draft of the poll statement for feedback.
-The 48 hour notification period  should be subject to change based on field
-  experience.
-A few months after we begin electronic polling, we should gather feedback and
-  determine if the notification period needs to be increased or decreased.
+Chairs shall notify attendees of a teleconference when a teleconference poll
+  aims to place a new poll in the upcoming quarterly ballot. If the
+  teleconference poll has consensus, the poll shall be put on the upcoming
+  quarterly ballot, at least a month before the ballot period closes. Any
+  teleconference poll taken in the month leading to a quarterly ballot is
+  instead scheduled for the subsequent quarter's ballot.
 
 ## Poll Notifications ## {#poll-notifications}
 
@@ -367,22 +383,15 @@ A new mailing list, polls@lists.isocpp.org, shall be established.
 This mailing list shall be used for notifications regarding polls, but not for
   discussions of polls or poll results.
 
-Once a poll has started, chairs shall notify the applicable mailing lists and
-  polls@lists.isocpp.org.
+Once a poll has been scheduled for an upcoming quarterly ballot, chairs shall
+  notify the applicable mailing lists and polls@lists.isocpp.org.
 
-At the start of any subgroup meeting, if that subgroup has open polls, the chair
-  shall notify the group of said polls.
+At the start of any teleconference meeting, if that group has open polls, the
+  chair shall notify the group of said polls.
 
 ## Poll Duration ## {#poll-duration}
 
-The subgroup chair creating a poll shall be able to set a deadline date for the
-  poll.
-The deadline should be in Anywhere on Earth (AoE) time (UTC-12).
-The suggested duration is 2 weeks.
-The 2 week duration guideline should be subject to change based on field
-  experience.
-A few months after we begin electronic polling, we should gather feedback and
-  determine if the polling period needs to be increased or decreased.
+Polls are open for no less than a month before a quarterly ballot closes.
 
 ## Poll Results ## {#poll-results}
 
