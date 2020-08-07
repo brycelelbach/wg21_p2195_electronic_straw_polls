@@ -250,6 +250,13 @@ The below excerpt describes their process for one particular type of poll:
 
 ## Consensus Building Mechanisms ## {#consensus-building-mechanisms}
 
+> Consensus: General agreement, characterized by the absence of sustained
+> opposition to substantial issues by any important part of the concerned
+> interests and by a process that involves seeking to take into account the
+> views of all parties concerned and to reconcile any conflicting arguments.
+>
+> - ISO/IEC Guide 2:2004
+
 <dfn>Synchronous Consensus Building</dfn> is a process for building consensus
   in which those involved meet at an appointed time (face-to-face or via
   telecon), discuss the subject matter, and then work to reach a consensus
@@ -317,25 +324,18 @@ Ultimately, there is a trade-off between [=synchronous consensus building=] and
   [=asynchronous consensus building=]; we believe that using a combination of
   both mechanisms is the right choice for C++ today.
 
-## Consensus Determining Mechanisms ## {#consensus}
+## Consensus Determining Mechanisms ## {#consensus-determining-mechanisms}
 
-> Consensus: General agreement, characterized by the absence of sustained
-> opposition to substantial issues by any important part of the concerned
-> interests and by a process that involves seeking to take into account the
-> views of all parties concerned and to reconcile any conflicting arguments.
->
-> - ISO/IEC Guide 2:2004
-
-> The notion of "concerned interest(s)" will vary depending on the dynamics of
-> the committee and shall therefore be determined by the committee leadership
-> on a case by case basis.
->
 > It is the responsibility of the chair of the technical committee or
 > subcommittee, in consultation with the secretary of his/her committee and, if
 > necessary, the project leader, to judge whether there is sufficient support.
 >
 > The responsibility for assessing whether or not consensus has been reached
 > rests entirely with the leadership.
+>
+> The notion of "concerned interest(s)" will vary depending on the dynamics of
+> the committee and shall therefore be determined by the committee leadership
+> on a case by case basis.
 >
 > - ISO/IEC Directives, Part 1, 2.5.6
 
