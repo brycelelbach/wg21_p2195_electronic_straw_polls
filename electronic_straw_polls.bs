@@ -190,79 +190,6 @@ In a way, this is a mini-train model embedded into C++'s larger 3-year release
   <rect width="04.167%" height="2em" x="95.833%" y="6em" fill="white" stroke="green" /><text x="97.917%" y="7em" dominant-baseline="middle" text-anchor="middle">📧️</text>
 </svg>
 
-## Consensus Building Mechanisms ## {#consensus-building-mechanisms}
-
-<dfn>Synchronous Consensus Building</dfn> is a process for building consensus
-  in which those involved meet at an appointed time (face-to-face or via
-  telecon), discuss the subject matter, and then work to reach a consensus
-  position before the end of the meeting.
-
-<dfn>Asynchronous Consensus Building</dfn> is a process for building consensus
-  in which a deadline is set, those involved discuss the subject matter (email,
-  face-to-face, and/or telecon), and then work to reach a consensus decision
-  before the deadline.
-
-One of the main motivations for [=synchronous consensus building=] is that
-  it attempts to ensure that those voting on a poll are informed on the subject
-  matter, as they were present for the discussion of it.
-However, despite our best efforts, we cannot force participants to be engaged
-  and follow the discussion, even if they are present.
-
-There are a number of downsides to [=synchronous consensus building=]:
-
-* It limits stakeholder involvement to those who can present at the meeting.
-    For face-to-face meeting, this requires participants to travel to the
-      meeting location.
-    For telecons, it is almost impossible to avoid excluding some stakeholders
-      due to time zone constraints.
-* It often forces stakeholders present at meetings to choose which decisions
-      they wish to be involved with.
-    At the last few face-to-face meetings, we have had seven concurrent
-      subgroup meetings for most of the week; it is almost impossible to avoid
-      conflicts.
-    For telecons, it is almost impossible to avoid excluding some stakeholders
-      due to schedule constraints.
-* It limits the amount of discussion that can proceed making a decision.
-    Synchronous meeting time is a precious and limited resource.
-* It does not leave time for reflection and reconsideration.
-    [=Synchronous consensus building=] asks us to make a decision immediately
-      after a discussion.
-    While we can almost always reconsider decisions in light of new information
-      or new perspectives, it is often wise to give stakeholders more time than
-      a synchronous meeting can last to think about the decision and
-      investigate open questions they may have.
-
-[=Asynchronous consensus building=] addresses many of these shortcomings.
-It allows more stakeholders to be involved in consensus building, equalizing
-  the field by removing barriers to participation.
-It removes the pressure and hastiness of trying to determine consensus before
-  the end of a meeting, giving stakeholders more time to contemplate and decide
-  their position.
-This ensures that all opinions are ensured equally in the consensus building
-  process, resulting in a better standard.
-
-However, [=asynchronous consensus building=] does have downsides as well:
-
-* It may make it easier to vote in a poll without participating in the discussion
-    or knowledge of the subject matter.
-* Discussion and polling are not temporally tightly coupled, which may make it
-    harder for participants to remain informed on the subject matter at the time
-    of the poll.
-* The lead time for taking a poll is greater, which means it is harder to retake
-    polls and take follow-up polls.
-
-We recognize that these may be issues, but we've taken steps to mitigate them and
-  we believe the upsides outweigh the downsides.
-It is important to note that we make decisions by consensus, not majority vote.
-If a chair believes that the results of a poll are not an accurate representation
-  of the consensus of the group, the chair may decide there's no consensus on
-  the poll despite the numeric results and the poll can be retaken after a
-  renewed discussion that seeks to improve consensus.
-
-Ultimately, there is a tradeoff between [=synchronous consensus building=] and
-  [=asynchronous consensus building=]; we believe that using a combination of
-  both mechanisms is the right choice for C++ today.
-
 ## Prior Art ## {#prior-art}
 
 Historically, consensus building within the Standard C++ Committee has been
@@ -320,6 +247,175 @@ The below excerpt describes their process for one particular type of poll:
 >       yes.
 >     J3/interp reserves the right to recall an interp answer for more study
 >       even if the answer passes.
+
+## Consensus Building Mechanisms ## {#consensus-building-mechanisms}
+
+<dfn>Synchronous Consensus Building</dfn> is a process for building consensus
+  in which those involved meet at an appointed time (face-to-face or via
+  telecon), discuss the subject matter, and then work to reach a consensus
+  position before the end of the meeting.
+
+<dfn>Asynchronous Consensus Building</dfn> is a process for building consensus
+  in which a deadline is set, those involved discuss the subject matter (email,
+  face-to-face, and/or telecon), and then work to reach a consensus decision
+  before the deadline.
+
+One of the main motivations for [=synchronous consensus building=] is that
+  it attempts to ensure that those voting on a poll are informed on the subject
+  matter, as they were present for the discussion of it.
+However, despite our best efforts, we cannot force participants to be engaged
+  and follow the discussion, even if they are present.
+
+There are a number of downsides to [=synchronous consensus building=]:
+
+* It limits stakeholder involvement to those who can present at the meeting.
+    For face-to-face meeting, this requires participants to travel to the
+      meeting location.
+    For telecons, it is almost impossible to avoid excluding some stakeholders
+      due to time zone constraints.
+* It often forces stakeholders present at meetings to choose which decisions
+      they wish to be involved with.
+    At the last few face-to-face meetings, we have had seven concurrent
+      subgroup meetings for most of the week; it is almost impossible to avoid
+      conflicts.
+    For telecons, it is almost impossible to avoid excluding some stakeholders
+      due to schedule constraints.
+* It limits the amount of discussion that can proceed making a decision.
+    Synchronous meeting time is a precious and limited resource.
+* It does not leave time for reflection and reconsideration.
+    [=Synchronous consensus building=] asks us to make a decision immediately
+      after a discussion.
+    While we can almost always reconsider decisions in light of new information
+      or new perspectives, it is often wise to give stakeholders more time than
+      a synchronous meeting can last to think about the decision and
+      investigate open questions they may have.
+
+[=Asynchronous consensus building=] addresses many of these shortcomings.
+It allows more stakeholders to be involved in consensus building, equalizing
+  the field by removing barriers to participation.
+It removes the pressure and hastiness of trying to determine consensus before
+  the end of a meeting, giving stakeholders more time to contemplate and decide
+  their position.
+This ensures that all opinions are ensured equally in the consensus building
+  process, resulting in a better standard.
+
+However, [=asynchronous consensus building=] does have downsides as well:
+
+* It may make it easier to participate in making a decision without
+    participating in the discussion or knowledge of the subject matter.
+* Discussion and decision making are not temporally tightly coupled, which may
+    make it harder for participants to remain informed on the subject matter at
+    the time of the poll.
+* The lead time for making decisions is greater, which means it is harder to
+    revisit decisions or make additional decisions based on earlier results.
+
+We recognize that these may be issues, but we've taken steps to mitigate them and
+  we believe the upsides outweigh the downsides.
+It is important to note that we make decisions by consensus, not majority vote.
+
+Ultimately, there is a trade-off between [=synchronous consensus building=] and
+  [=asynchronous consensus building=]; we believe that using a combination of
+  both mechanisms is the right choice for C++ today.
+
+## Consensus Determining Mechanisms ## {#consensus}
+
+> Consensus: General agreement, characterized by the absence of sustained
+> opposition to substantial issues by any important part of the concerned
+> interests and by a process that involves seeking to take into account the
+> views of all parties concerned and to reconcile any conflicting arguments.
+>
+> - ISO/IEC Guide 2:2004
+
+> The notion of "concerned interest(s)" will vary depending on the dynamics of
+> the committee and shall therefore be determined by the committee leadership
+> on a case by case basis.
+>
+> It is the responsibility of the chair of the technical committee or
+> subcommittee, in consultation with the secretary of his/her committee and, if
+> necessary, the project leader, to judge whether there is sufficient support.
+>
+> The responsibility for assessing whether or not consensus has been reached
+> rests entirely with the leadership.
+>
+> - ISO/IEC Directives, Part 1, 2.5.6
+
+Within subgroups, we do not make decisions using polls.
+We make decisions by consensus not by vote.
+Subgroup chairs often use polls as a mechanism to help them determine consensus.
+The subgroup chair's determination of consensus is authoritative, not the
+  straw poll.
+
+If a chair states that the result of poll does not help them determine the
+  consensus of the subgroup, the results of the poll are invalid and should not
+  be cited as a representation of the position of the subgroup.
+
+For example, a chair may have reason to believe the poll is not an accurate
+  representation of the stakeholders in the subgroup for a variety of different
+  reasons:
+
+* Lack of participation by certain stakeholders in the subgroup.
+* Disproportionate participation by participants who are not regular participants
+    and stakeholders in the subgroup, even if they are stakeholders on the
+    particular matter at hand.
+* Disproportionate participation by the authors of the proposal under
+    consideration.
+* Large disparities between the positions of regular stakeholders and others
+    participating in the poll.
+* Complexities of stakeholder positions that cannot be accurately expressed in
+    a poll.
+
+For example, suppose we had this result:
+
+<blockquote>
+<b>POLL: Use electronic straw polls to in this subgroup.</b>
+
+<table>
+<tr>
+<th>Strongly For
+<th>Weakly For
+<th>Neutral
+<th>Weakly Against
+<th>Strongly Against
+<tr>
+<td>8
+<td>0
+<td>5
+<td>0
+<td>2
+</table>
+</blockquote>
+
+This poll result might appear to have weak consensus.
+But, suppose also that:
+
+* All 8 of the people who voted strongly or weakly for the poll were authors of
+    the proposal who are new to the committee and who are not regulars in the
+    subgroup.
+* Most of the 5 people who voted neutral were regular attendees of the subgroup,
+    and noted in their poll comment that they voted neutral because
+    they felt they did not understand the proposal.
+* 1 long time regular member of the subgroup voted strongly against because they
+    read the proposal very thoroughly and provided a lot of feedback to the
+    authors, and mentioned in their comment that they felt no steps had been
+    taken to address their feedback.
+* Another long time regular member of the subgroup voted strongly against
+    because they are knowledgable about the subject matter and believe the
+    proposal is a mistake.
+
+In this circumstance, a chair may determine that there is no consensus on this
+  matter.
+The chair would inform the authors and the group that the poll was inconclusive
+  and would have to be retaken after another round of discussions.
+They would also provide the authors with some guidance on what steps they might
+  take to ensure that more stakeholders understand and adopt an informed
+  position on the matter before it is polled again.
+
+The electronic straw poll mechanism makes it easier for chairs to detect
+  irregularities in polling; polls will be recorded with greater accuracy,
+  voters will be able to attach a comment to the poll, and chairs will be able
+  to identify who voted and how they voted.
+If irregularities are observed, they will be corrected and adjustments to our
+  process can be made if needed.
 
 # Proposed Changes # {#proposed-changes}
 
@@ -400,8 +496,8 @@ Polls should provide links to relevant published P- or N-numbered papers
 In a five-way poll, voters may select a stance on the statement being polled
   from these five options:
 
-* Strongly Favor.
-* Weakly Favor.
+* Strongly For.
+* Weakly For.
 * Neutral.
 * Weakly Against.
 * Strongly Against.
@@ -522,56 +618,13 @@ The best we can do is what we have always done: encourage people to either
 Additionally, unlike at face-to-face meetings, chairs will have a list of
   everyone who voted in the poll and how they voted.
 If any sort of voting irregularities appear, the added transparency will make
-  it very noticable.
+  it noticeable.
 If such irregularities do occur, we can correct them and adjust our process.
 
 We make decisions by consensus, not majority.
 If the chair has reason to believe the results of the poll do not reflect the
   consensus of the group, the poll can be discarded and the subject matter
   revisited.
-
-For example, suppose we had this result:
-
-<blockquote>
-<b>POLL: Use asynchronous electronic straw polls to determine consensus in
-  Library</b>
-
-<table>
-<tr>
-<th>Strongly For
-<th>Weakly For
-<th>Neutral
-<th>Weakly Against
-<th>Strongly Against
-<tr>
-<td>5
-<td>3
-<td>10
-<td>1
-<td>0
-</table>
-</blockquote>
-
-This poll result might appear to have weak consensus.
-But, suppose also that:
-
-* All 8 of the people who voted strongly or weakly for the poll were authors of
-    the proposal and were new to Library Evolution.
-* Most of the 10 people who voted neutral were regular attendees of Library
-    Evolution, and noted in their poll comment that they voted neutral because
-    they felt they did not understand the proposal.
-* The 1 person who voted weakly against was a long time regular member of
-    Library Evolution who read the proposal very thoroughly and provided a
-    lot of feedback to the authors, and mentioned in their comment that they
-    felt no steps had been taken to address their feedback.
-
-In this circumstance, a chair may determine that there is no consensus on this
-  matter.
-The chair would inform the authors and the group that the poll was inconclusive
-  and would have to be retaken after another round of discussions.
-They would also provide the authors with some guidance on what steps they might
-  take to ensure that more stakeholders understand and adopt an informed
-  position on the matter before it is polled again.
 
 <b>Q: Will my vote and comments on a poll be publicly attributed to me outside of the committee?</b>
 
