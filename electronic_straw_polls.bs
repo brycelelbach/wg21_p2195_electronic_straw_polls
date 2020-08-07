@@ -102,38 +102,52 @@ This switch to remote work has required us to make changes to how we meet and
 
 To have effective virtual meetings, we need to evolve our consensus building
   process, because it has traditionally been in-person only.
-We are unlikely to meet in-person again until it is possible to do so without
-  putting peoples' lives at risk.
+We are will not meet in-person again until it is possible to do so without
+  putting peoples' lives at risk, and we do not when that will be.
 
-We therefore propose that language and library evolution group chairs be able to
+We therefore propose that the Evolution and Library Evolution chairs be able to
   conduct [=straw polls=] asynchronously through an electronic polling service
   on isocpp.org.
-We separate these into [=Direction Straw Polls=] and
+We separate polls into two categories: [=Direction Straw Polls=] and
   [=Decision Straw Polls=].
 
-This process proposal doesn't address what work should be prioritized or
-  the process by which a proposal moves through the committee.
+We focus on the evolution groups because, so far, study groups and
+  the core groups have been able to advance work without too many issues.
+In large parts, this is because study groups are focused interest groups who
+  forward to evolutions groups.
+Similarly, core groups are smaller and have more focus, and controversial design
+  discussions tend to occur prior to reaching the core groups.
+
+This proposal doesn't address what work should be prioritized or the process by
+  which a proposal moves through the committee.
 These important tasks are performed by [[P0592R4]] (prioritization) and
   [[P2138R2]] (proposal flow).
-
-We focus on evolution groups because we observe that, so far, study groups and
-  the core groups have been able to advance work without too many issues. In
-  large parts, this is because study groups are focused interest groups who
-  forward to evolutions groups. Similarly, core groups have more focus and
-  little to no leeway in design.
 
 ## Proposal Summary ## {#tldr}
 
 In short, we propose:
 
-* Continue with virtual teleconferences, which hone design and provide non-binding design direction.
-* Hold quarterly asynchronous ballots, through a website on isocpp.org.
-* Anything that is judged ready for binding ballot is put on the quarlerly ballot.
-* Ballots can be added to the quarterly list up to a month before the ballot closes.
-* A teleconference is held one week before ballots close to hold technical discussions which haven't been addressed over email.
+* Continuing virtual teleconferences, which hone design and provide
+    non-binding design direction.
+* Begin holding quarterly asynchronous electronic polls through a web service
+    on isocpp.org.
+* Anything that is judged ready for a binding decision poll is put on the
+    next applicable quarterly poll.
+* Polls can be added to the quarterly list up to a month before the poll
+    opens.
+* A teleconference is held one week before polls close to hold technical
+    discussions which haven't been addressed over email or at prior
+    teleconferences.
+* The impact and effectiveness of all the above should be monitored and
+    changes should be proposed to improve the process as needed.
 
 In a way, this is a mini-train model embedded into C++'s larger 3-year release
-train schedule. Within this, we have mailings every month.
+  train schedule:
+
+* Releases every three years.
+* Decision polls every quarter.
+* Mailings every month.
+* Teleconferences every week.
 
 <svg width="100%">
   <rect width="50%" height="2em" x="00%" y="0em" fill="white" stroke="red" /><text x="25%" y="1em" dominant-baseline="middle" text-anchor="middle">🚂 C++Current</text>
@@ -188,10 +202,9 @@ train schedule. Within this, we have mailings every month.
   face-to-face, and/or telecon), and then work to reach a consensus decision
   before the deadline.
 
-One of the main motivations for [=synchronous consensus building=] making is that
+One of the main motivations for [=synchronous consensus building=] is that
   it attempts to ensure that those voting on a poll are informed on the subject
-  matter, as they were present for the discussion of the subject matter of the
-  poll.
+  matter, as they were present for the discussion of it.
 However, despite our best efforts, we cannot force participants to be engaged
   and follow the discussion, even if they are present.
 
@@ -200,12 +213,12 @@ There are a number of downsides to [=synchronous consensus building=]:
 * It limits stakeholder involvement to those who can present at the meeting.
     For face-to-face meeting, this requires participants to travel to the
       meeting location.
-    For telecon, it is almost impossible to avoid excluding some stakeholders
+    For telecons, it is almost impossible to avoid excluding some stakeholders
       due to time zone constraints.
 * It often forces stakeholders present at meetings to choose which decisions
       they wish to be involved with.
     At the last few face-to-face meetings, we have had seven concurrent
-      study group meeting for most of the week; it is almost impossible to avoid
+      subgroup meetings for most of the week; it is almost impossible to avoid
       conflicts.
     For telecons, it is almost impossible to avoid excluding some stakeholders
       due to schedule constraints.
@@ -219,7 +232,7 @@ There are a number of downsides to [=synchronous consensus building=]:
       a synchronous meeting can last to think about the decision and
       investigate open questions they may have.
 
-[=Asynchronous consensus building=] addresses these shortcomings.
+[=Asynchronous consensus building=] addresses many of these shortcomings.
 It allows more stakeholders to be involved in consensus building, equalizing
   the field by removing barriers to participation.
 It removes the pressure and hastiness of trying to determine consensus before
@@ -228,9 +241,27 @@ It removes the pressure and hastiness of trying to determine consensus before
 This ensures that all opinions are ensured equally in the consensus building
   process, resulting in a better standard.
 
-We believe that language and library evolution chairs should have access to
-  [=asynchronous consensus building=] mechanisms in addition to the traditional
-  [=synchronous consensus building=] mechanisms that we use today.
+However, [=asynchronous consensus building=] does have downsides as well:
+
+* It may make it easier to vote in a poll without participating in the discussion
+    or knowledge of the subject matter.
+* Discussion and polling are not temporally tightly coupled, which may make it
+    harder for participants to remain informed on the subject matter at the time
+    of the poll.
+* The lead time for taking a poll is greater, which means it is harder to retake
+    polls and take follow-up polls.
+
+We recognize that these may be issues, but we've taken steps to mitigate them and
+  we believe the upsides outweigh the downsides.
+It is important to note that we make decisions by consensus, not majority vote.
+If a chair believes that the results of a poll are not an accurate representation
+  of the consensus of the group, the chair may decide there's no consensus on
+  the poll despite the numeric results and the poll can be retaken after a
+  renewed discussion that seeks to improve consensus.
+
+Ultimately, there is a tradeoff between [=synchronous consensus building=] and
+  [=asynchronous consensus building=]; we believe that using a combination of
+  both mechanisms is the right choice for C++ today.
 
 ## Prior Art ## {#prior-art}
 
@@ -496,8 +527,51 @@ If such irregularities do occur, we can correct them and adjust our process.
 
 We make decisions by consensus, not majority.
 If the chair has reason to believe the results of the poll do not reflect the
-  consensus of the group, the poll can be discarded. that the results of the
-  poll are not valid,
+  consensus of the group, the poll can be discarded and the subject matter
+  revisited.
+
+For example, suppose we had this result:
+
+<blockquote>
+<b>POLL: Use asynchronous electronic straw polls to determine consensus in
+  Library</b>
+
+<table>
+<tr>
+<th>Strongly For
+<th>Weakly For
+<th>Neutral
+<th>Weakly Against
+<th>Strongly Against
+<tr>
+<td>5
+<td>3
+<td>10
+<td>1
+<td>0
+</table>
+</blockquote>
+
+This poll result might appear to have weak consensus.
+But, suppose also that:
+
+* All 8 of the people who voted strongly or weakly for the poll were authors of
+    the proposal and were new to Library Evolution.
+* Most of the 10 people who voted neutral were regular attendees of Library
+    Evolution, and noted in their poll comment that they voted neutral because
+    they felt they did not understand the proposal.
+* The 1 person who voted weakly against was a long time regular member of
+    Library Evolution who read the proposal very thoroughly and provided a
+    lot of feedback to the authors, and mentioned in their comment that they
+    felt no steps had been taken to address their feedback.
+
+In this circumstance, a chair may determine that there is no consensus on this
+  matter.
+The chair would inform the authors and the group that the poll was inconclusive
+  and would have to be retaken after another round of discussions.
+They would also provide the authors with some guidance on what steps they might
+  take to ensure that more stakeholders understand and adopt an informed
+  position on the matter before it is polled again.
 
 <b>Q: Will my vote and comments on a poll be publicly attributed to me outside of the committee?</b>
 
