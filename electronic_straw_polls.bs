@@ -105,8 +105,8 @@ We are unlikely to meet in-person again until it is possible to do so without
   putting peoples' lives at risk.
 
 We therefore propose that language and library evolution group chairs be able to
-  conduct subgroup [=straw polls=] asynchronously through an electronic polling
-  service on isocpp.org.
+  conduct [=straw polls=] asynchronously through an electronic polling service
+  on isocpp.org.
 We separate these into [=Direction Straw Polls=] and
   [=Decision Straw Polls=].
 
@@ -115,11 +115,11 @@ This process proposal doesn't address what work should be prioritized or
 These important tasks are performed by [[P0592R4]] (prioritization) and
   [[P2138R2]] (proposal flow).
 
-We focus on evolution groups because we observe that, so far, subgroup and the
-  core groups have been able to advance work without too many issues. In large
-  parts, this is because subgroups are focused interest groups who forward to
-  evolutions groups. Similarly, core groups have more focus and little to no
-  leeway in design.
+We focus on evolution groups because we observe that, so far, study groups and
+  the core groups have been able to advance work without too many issues. In
+  large parts, this is because study groups are focused interest groups who
+  forward to evolutions groups. Similarly, core groups have more focus and
+  little to no leeway in design.
 
 ## Proposal Summary ## {#tldr}
 
@@ -204,7 +204,7 @@ There are a number of downsides to [=synchronous consensus building=]:
 * It often forces stakeholders present at meetings to choose which decisions
       they wish to be involved with.
     At the last few face-to-face meetings, we have had seven concurrent
-      subgroups meeting for most of the week; it is almost impossible to avoid
+      study group meeting for most of the week; it is almost impossible to avoid
       conflicts.
     For telecons, it is almost impossible to avoid excluding some stakeholders
       due to schedule constraints.
@@ -227,7 +227,7 @@ It removes the pressure and hastiness of trying to determine consensus before
 This ensures that all opinions are ensured equally in the consensus building
   process, resulting in a better standard.
 
-We believe that subgroup chairs should have access to
+We believe that language and library evolution chairs should have access to
   [=asynchronous consensus building=] mechanisms in addition to the traditional
   [=synchronous consensus building=] mechanisms that we use today.
 
@@ -236,10 +236,10 @@ We believe that subgroup chairs should have access to
 Historically, consensus building within the Standard C++ Committee has been
   synchronous and has occured at face-to-face meetings:
 
-* <dfn>Straw Polls</dfn>: Subgroups have used informal polls during
-      face-to-face meetings to decide whether to pursue proposals, provide
-      directions for future revisions of proposals, make policy decisions, and
-      forward proposals to other subgroups or plenaries.
+* <dfn>Straw Polls</dfn>: Evolution and study groups have used informal polls
+      during face-to-face meetings to decide whether to pursue proposals,
+      provide directions for future revisions of proposals, make policy
+      decisions, and forward proposals to other groups or plenaries.
     Anyone physically in attendance when a [=straw poll=] is taken is allowed to
       participate, including those who are visitors and do not yet have formal
       membership in a National Body.
@@ -256,7 +256,7 @@ Historically, consensus building within the Standard C++ Committee has been
       Committee-wide policy decisions.
     In the past few years, we have avoided technical discussion on the subject
       matter of a plenary poll during the plenary itself; technical discussion
-      is supposed to happen in the applicable subgroups prior to plenary.
+      is supposed to happen in the applicable study groups prior to plenary.
 
 Some of the decisions made at plenary meetings, such as the creation and
   advancement of work items through their publication cycle, lead to
@@ -313,24 +313,24 @@ Henceforth, [=straw polls=] should be divided into two categories:
 
 * <dfn>Direction Straw Polls</dfn>: These polls are taken to reaffirm a proposal's
       direction, or suggest direction changes that a proposal should pursue in the
-      next revision that comes before the subgroup taking the poll.
+      next revision that comes before the study group taking the poll.
     These polls will usually be taken on younger proposals, where there are still
       many open questions and areas for additional investigation.
     Direction [=straw polls=] can only be taken on proposals that will return to
-      the same subgroup before proceeding further.
+      the same evolution or study group before proceeding further.
     Dissent should be recorded, so that authors know what work needs to be performed
       to increase consensus in the next revision of their proposal.
     The results of these polls can always be revisited if new information or new
       perspectives are discovered.
 * <dfn>Decision Straw Polls</dfn>: These polls are taken to make decisions
-      regarding a proposal once the subgroup is confident that all applicable
-      and relevant aspects of the decision have been discussed.
+      regarding a proposal once the evolution or study group is confident that
+      all applicable and relevant aspects of the decision have been discussed.
     These polls will typically be taken on proposals that have been in the
-      subgroup for a few revisions, but can also be taken when a proposal is an
-      obvious one to approve, or when a proposal clearly has no chance of gaining
-      consensus and should not be pursued further.
-    Decision [=straw polls=] may forward proposals to other subgroups or to
-      plenary, as well as halt the progress of a proposal.
+      evolution or study group for a few revisions, but can also be taken when a
+      proposal is an obvious one to approve, or when a proposal clearly has no
+      chance of gaining consensus and should not be pursued further.
+    Decision [=straw polls=] may forward proposals to other evolution groups,
+      study groups, or to plenary, as well as halt the progress of a proposal.
     The results of these polls can always be revisited if new information or new
       perspectives are discovered.
 
@@ -379,8 +379,9 @@ In a five-way poll, voters may select a stance on the statement being polled
 The service shall use the same login system as the isocpp.org paper submission
   service.
 
-An individual is eligible to obtain an isocpp.org account and participate in
-  a subgroup's electronic [=straw polls=] if they are any of the following:
+An individual is eligible to obtain an isocpp.org account and participate in an
+  evolution or study group's electronic [=straw polls=] if they are any of the
+  following:
 
 * A member of a National Body that participates in the Standard C++ Committee,
     e.g. someone who is in the ISO Global Directory.
@@ -494,7 +495,7 @@ If such irregularities do occur, we can correct them and adjust our process.
 
 We make decisions by consensus, not majority.
 If the chair has reason to believe the results of the poll do not reflect the
-  consensus of the subgroup, the poll can be discarded.  that the results of the
+  consensus of the group, the poll can be discarded. that the results of the
   poll are not valid,
 
 <b>Q: Will my vote and comments on a poll be publicly attributed to me outside of the committee?</b>
@@ -514,7 +515,7 @@ Poll results will follow the same rules we use for minutes today:
 This proposal does not suggest any changes to our plenary process at this time.
 We believe incremental change is safer than drastic change.
 We suggest that the Standard C++ Committee start pursuing electronic
-  [=straw polls=] for subgroups and assess the effectiveness and ramifications
+  [=straw polls=] for evolution groups and assess the effectiveness and ramifications
   of this change in a few months before considering further process changes.
 
 There is no pressing need to hold a plenary meeting for the next few months.
@@ -532,7 +533,7 @@ However, ISO provides another type of ballot,
   <a href="https://helpdesk-docs.iso.org/article/318-create-wg">Working Group consultations</a>,
   which the formal individual members of a Committee vote on.
 
-Given that technical discussion is already discouraged for [=plenary polls=]
-  and is intended to happen disjointly in subgroups prior the plenary,
-  electronic voting for [=plenary polls=] seems like a natural fit.
+Given that technical discussion is already discouraged for [=plenary polls=] and
+  is intended to happen disjointly in evolution and study groups prior the
+  plenary, electronic voting for [=plenary polls=] seems like a natural fit.
 
