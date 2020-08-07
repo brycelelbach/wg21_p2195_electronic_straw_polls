@@ -292,21 +292,21 @@ Historically, consensus building within the Standard C++ Committee has been
 
 Some of the decisions made at plenary meetings, such as the creation and
   advancement of work items through their publication cycle, lead to
-  asynchronous electronic ballots at the ISO level which then trickle down to
+  asynchronous electronic polls at the ISO level which then trickle down to
   our National Bodies, each of which uses their own consensus building process.
-Typically these ISO ballots are open for a few weeks or months, giving ample time
+Typically these ISO polls are open for a few weeks or months, giving ample time
   for stakeholders to consider the subject matter and make up their mind.
 
 The parent organization of the US National Body, INCITS,
   [=Asynchronous Consensus Building|builds consensus asynchronously=] through
-  electronic ballots or calls for comments which are open for a few weeks or
+  electronic polls or calls for comments which are open for a few weeks or
   months.
 
 Another ISO programming language committee, the Standard Fortran Committee,
   makes synchronous decisions at face-to-face meetings.
 However, many of these decisions are considered preliminary and are followed up
-  with an electronic ballot within the Committee to determine consensus.
-The below excerpt describes their process for one particular type of ballot:
+  with an electronic polls within the Committee to determine consensus.
+The below excerpt describes their process for one particular type of poll:
 
 > The rules for interpretation handling by which we operate say:
 >
@@ -445,11 +445,11 @@ The subject of a poll shall be discussed either at a meeting or via the
   applicable mailing list prior to the start of a poll.
 
 Chairs shall notify attendees of a teleconference when a teleconference poll
-  aims to place a new poll in the upcoming quarterly ballot. If the
+  aims to place a new poll in the upcoming quarterly poll. If the
   teleconference poll has consensus, the poll shall be put on the upcoming
-  quarterly ballot, at least a month before the ballot period closes. Any
-  teleconference poll taken in the month leading to a quarterly ballot is
-  instead scheduled for the subsequent quarter's ballot.
+  quarterly poll, at least a month before the poll period closes. Any
+  teleconference poll taken in the month leading to a quarterly poll is
+  instead scheduled for the subsequent quarter's poll.
 
 ## Poll Notifications ## {#poll-notifications}
 
@@ -457,7 +457,7 @@ A new mailing list, polls@lists.isocpp.org, shall be established.
 This mailing list shall be used for notifications regarding polls, but not for
   discussions of polls or poll results.
 
-Once a poll has been scheduled for an upcoming quarterly ballot, chairs shall
+Once a poll has been scheduled for an upcoming quarterly poll, chairs shall
   notify the applicable mailing lists and polls@lists.isocpp.org.
 
 At the start of any teleconference meeting, if that group has open polls, the
@@ -465,7 +465,7 @@ At the start of any teleconference meeting, if that group has open polls, the
 
 ## Poll Duration ## {#poll-duration}
 
-Polls are open for no less than a month before a quarterly ballot closes.
+Polls are open for no less than a month before a quarterly poll closes.
 
 ## Poll Results ## {#poll-results}
 
@@ -597,14 +597,14 @@ There is no pressing need to hold a plenary meeting for the next few months.
 We do not need to advance any Standard C++ work items to the next publication
   stage in the immediate future.
 
-In the future, if we decide to electronically ballot [=plenary polls=], there
-  are already systems in place to handle electronic balloting of formal
+In the future, if we decide to electronically conduct [=plenary polls=], there
+  are already systems in place to handle electronic polling of formal
   individual members within an ISO committee.
-ISO provides a electronic balloting system which we could use to poll the
+ISO provides a electronic polling system which we could use to poll the
   individual membership.
-ISO ballots for creating or advancing work items to the next publication stage
+ISO polls for creating or advancing work items to the next publication stage
   are voted on by National Bodies, not the individual members.
-However, ISO provides another type of ballot,
+However, ISO provides another type of poll,
   <a href="https://helpdesk-docs.iso.org/article/318-create-wg">Working Group consultations</a>,
   which the formal individual members of a Committee vote on.
 
