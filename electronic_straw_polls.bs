@@ -7,7 +7,6 @@ Group: WG21
 Audience: WG21
 Editor: Bryce Adelstein Lelbach (he/him/his) — Library Evolution Chair, NVIDIA, brycelelbach@gmail.com
 Editor: JF Bastien — Evolution Chair, cxx@jfbastien.com
-URL: https://wg21.link/P2195R0
 Editor: Hal Finkel — Administrative Chair & US National Body Vice Chair, Argonne National Laboratory, hfinkel@anl.gov
 Editor: Fabio Fracassi — Library Evolution Vice Chair, CODE University of Applied Sciences, f.fracassi@gmx.net
 Editor: Ben Craig — Library Evolution Vice Chair, NI, ben.craig@gmail.com
@@ -19,6 +18,7 @@ Editor: Inbal Levi — Israeli National Body Chair, sinbal2l@gmail.com
 Editor: Antony Polukhin — Russian National Body, antoshkka@gmail.com
 Editor: Corentin Jabot — French National Body, corentin.jabot@gmail.com
 Editor: David Stone - Evolution Working Group Vice Chair, Modules Study Group Chair, david@doublewise.net
+URL: https://wg21.link/P2195R0
 !Source: <a href="https://github.com/brycelelbach/wg21_p2195_electronic_straw_polls/blob/main/electronic_straw_polls.bs">GitHub</a>
 Issue Tracking: GitHub https://github.com/brycelelbach/wg21_p2195_electronic_straw_polls/issues
 Metadata Order: Author, This Version, Source, Issue Tracking, Project, Audience
