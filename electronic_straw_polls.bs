@@ -541,6 +541,14 @@ If any voter is unable to vote using the voting system for whatever reason, they
 
 Chairs may create polls.
 
+## Withdrawal of Polls ## {#withdrawal-of-polls}
+
+The chair who created a poll may withdraw or extend the duration of a poll.
+
+If a poll is withdrawn or extended, the chair shall make a comment, both on the
+  polling system and to polls@lists.isocpp.org, explaining why the poll was
+  withdrawn.
+
 ## Discussion Prior to Polling ## {#discussion-prior-to-polling}
 
 The subject of a poll shall be discussed either at a meeting or via the
