@@ -411,8 +411,7 @@ In this circumstance, a chair may determine that there is no consensus on this
 The chair would inform the authors and the group that the poll was inconclusive
   and would have to be retaken after another round of discussions.
 They would also provide the authors with some guidance on what steps they might
-  take to ensure that more stakeholders understand and adopt an informed
-  position on the matter before it is polled again.
+  take to improving understanding and increase consensus.
 
 The electronic straw poll mechanism makes it easier for chairs to detect
   irregularities in polling; polls will be recorded with greater accuracy,
