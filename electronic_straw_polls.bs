@@ -654,13 +654,33 @@ Poll results will follow the same rules we use for minutes today:
 * Attribution of votes or comments to specific individuals, companies, or
     National Bodies without their express permission is forbidden.
 
+<b>Q: Shouldn't voting be anonymous?</b>
+
+It's never been anonymous in person, we just never or rarely record who voted
+  which way.
+Polling within ISO is never anonymous either, with the exception of personnel
+  matters.
+
+Anonymous voting would be detrimental to the purpose of polling.
+Polling is a mechanism for chairs to determine consensus.
+The numeric results of the poll are not important themselves, what's important
+  is gathering the positions of everyone involved.
+
+If we don't have consensus on a particular matter, it would be very difficult
+  to attempt to reach consensus if we were unable to identify who held differing
+  opinions.
+Ultimately, our goal is to work together to reach an outcome that is acceptable
+  to everyone.
+That would be harder to do if voting was anonymous.
+
 <b>Q: What about plenary and [=plenary polls=]?</b>
 
 This proposal does not suggest any changes to our plenary process at this time.
 We believe incremental change is safer than drastic change.
 We suggest that the Standard C++ Committee start pursuing electronic
-  [=straw polls=] for evolution groups and assess the effectiveness and ramifications
-  of this change in a few months before considering further process changes.
+  [=straw polls=] for evolution groups and assess the effectiveness and
+  ramifications of this change in a few months before considering further
+  process changes.
 
 There is no pressing need to hold a plenary meeting for the next few months.
 We do not need to advance any Standard C++ work items to the next publication
