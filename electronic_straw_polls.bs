@@ -488,11 +488,13 @@ Electronic [=straw polls=] shall be conducted through a service on isocpp.org.
 The service shall support five-way polls.
 
 A five-way poll consists of an arbitrary statement, determined by the applicable
-  chair. The polarity of the poll shall be that voting "in favor" means changing
-  the current status-quo.
+  chair.
+The polarity of the poll shall be that voting "in favor" means changing the
+  current status-quo.
 Poll statements shall not be changed after the poll has begun.
 
-Polls should provide links to relevant published P- or N-numbered papers
+Polls shall only be conducted on published P- or N-numbered papers.
+Polls shall provide links to relevant published P- or N-numbered papers
   applicable to the polls, relevant minutes for those papers, prior polls, and
   the <a href="https://github.com/cplusplus/papers/issues">GitHub issue</a> for
   said papers.
