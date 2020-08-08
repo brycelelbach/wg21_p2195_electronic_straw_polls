@@ -443,17 +443,20 @@ We propose that language and library evolution chairs have the option to conduct
 
 Henceforth, [=straw polls=] should be divided into two categories:
 
-* <dfn>Direction Straw Polls</dfn>: These polls are taken to reaffirm a proposal's
-      direction, or suggest direction changes that a proposal should pursue in the
-      next revision that comes before the study group taking the poll.
+* <dfn>Direction Straw Polls</dfn>: These polls are taken to reaffirm a
+      proposal's direction, or suggest direction changes that a proposal should
+      pursue in the next revision that comes before the study group taking the
+      poll.
     These polls will usually be taken on younger proposals, where there are still
       many open questions and areas for additional investigation.
     Direction [=straw polls=] can only be taken on proposals that will return to
       the same evolution or study group before proceeding further.
-    Dissent should be recorded, so that authors know what work needs to be performed
-      to increase consensus in the next revision of their proposal.
+    Dissent should be recorded, so that authors know what work needs to be
+      performed to increase consensus in the next revision of their proposal.
     The results of these polls can always be revisited if new information or new
       perspectives are discovered.
+    Direction polls do not change the status quo and can be revisited whenever
+      we encounter new information or new perspectives.
 * <dfn>Decision Straw Polls</dfn>: These polls are taken to make decisions
       regarding a proposal once the evolution or study group is confident that
       all applicable and relevant aspects of the decision have been discussed.
@@ -463,8 +466,8 @@ Henceforth, [=straw polls=] should be divided into two categories:
       chance of gaining consensus and should not be pursued further.
     Decision [=straw polls=] may forward proposals to other evolution groups,
       study groups, or to plenary, as well as halt the progress of a proposal.
-    The results of these polls can always be revisited if new information or new
-      perspectives are discovered.
+    Decision polls set the status quo.
+    Changing the status quo requires a stronger consensus with a clear rationale.
 
 We propose that the following guidelines should be followed when determining
   whether a poll should be taken synchronously or asynchronously:
