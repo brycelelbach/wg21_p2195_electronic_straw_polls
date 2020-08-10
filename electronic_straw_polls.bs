@@ -6,7 +6,7 @@ Status: D
 Group: WG21
 Audience: WG21
 Editor: Bryce Adelstein Lelbach (he/him/his) — Library Evolution Chair, NVIDIA, brycelelbach@gmail.com
-Editor: JF Bastien — Evolution Chair, cxx@jfbastien.com
+Editor: JF Bastien — Evolution Chair and Canadian National Body, cxx@jfbastien.com
 Editor: Hal Finkel — Administrative Chair & US National Body Vice Chair, Argonne National Laboratory, hfinkel@anl.gov
 Editor: Fabio Fracassi — Library Evolution Vice Chair, CODE University of Applied Sciences, f.fracassi@gmx.net
 Editor: Ben Craig — Library Evolution Vice Chair, NI, ben.craig@gmail.com
