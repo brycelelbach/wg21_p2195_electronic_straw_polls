@@ -102,8 +102,8 @@ This switch to remote work has required us to make changes to how we meet and
 
 To have effective virtual meetings, we need to evolve our consensus building
   process, because it has traditionally been in-person only.
-We are will not meet in-person again until it is possible to do so without
-  putting peoples' lives at risk, and we do not when that will be.
+We will not meet in-person again until it is possible to do so without
+  putting peoples' lives at risk, and we do not know when that will be.
 
 We therefore propose that the Evolution and Library Evolution chairs be able to
   conduct [=straw polls=] asynchronously through an electronic polling service
@@ -129,12 +129,12 @@ In short, we propose:
 
 * Continuing virtual teleconferences, which hone design and provide
     non-binding design direction.
-* Begin holding quarterly asynchronous electronic polls through a web service
-    on isocpp.org.
+* Begin holding quarterly asynchronous electronic polls for evolution groups
+    through a web service on isocpp.org.
 * Anything that is judged ready for a binding decision poll is put on the
     next applicable quarterly poll.
-* Polls can be added to the quarterly list up to a month before the poll
-    opens.
+* Polls can be added to the quarterly list up to a month before the quarterly
+    poll is closed.
 * A teleconference is held one week before polls close to hold technical
     discussions which haven't been addressed over email or at prior
     teleconferences.
@@ -195,7 +195,7 @@ In a way, this is a mini-train model embedded into C++'s larger 3-year release
 Historically, consensus building within the Standard C++ Committee has been
   synchronous and has occured at face-to-face meetings:
 
-* <dfn>Straw Polls</dfn>: Evolution and study groups have used informal polls
+* <dfn>Straw Polls</dfn>: Evolution groups and study groups have used informal polls
       during face-to-face meetings to decide whether to pursue proposals,
       provide directions for future revisions of proposals, make policy
       decisions, and forward proposals to other groups or plenaries.
@@ -203,7 +203,7 @@ Historically, consensus building within the Standard C++ Committee has been
       participate, including those who are visitors and do not yet have formal
       membership in a National Body.
     Typically, chairs discourage those who were not present for the discussion
-      preceding the poll to not vote, but they are not disallowed from doing so.
+      preceding the poll from voting, but they are not disallowed from doing so.
     Decisions made in this way are not strictly binding; if new information or
       new perspectives are discovered, decisions can always be revisited.
 * <dfn>Plenary Polls</dfn>: More formal polls are taken during plenaries at
@@ -283,7 +283,7 @@ There are a number of downsides to [=synchronous consensus building=]:
 * It often forces stakeholders present at meetings to choose which decisions
       they wish to be involved with.
     At the last few face-to-face meetings, we have had seven concurrent
-      subgroup meetings for most of the week; it is almost impossible to avoid
+      group meetings for most of the week; it is almost impossible to avoid
       conflicts.
     For telecons, it is almost impossible to avoid excluding some stakeholders
       due to schedule constraints.
@@ -343,23 +343,23 @@ Ultimately, there is a trade-off between [=synchronous consensus building=] and
 >
 > - ISO/IEC Directives, Part 1, 2.5.6
 
-Within subgroups, we do not make decisions using polls.
+Within evolution, study, and core groups, we do not make decisions using polls.
 We make decisions by consensus not by vote.
-Subgroup chairs often use polls as a mechanism to help them determine consensus.
-The subgroup chair's determination of consensus is authoritative, not the
+Chairs often use polls as a mechanism to help them determine consensus.
+The chair's determination of consensus is authoritative, not the
   straw poll.
 
 If a chair states that the result of poll does not help them determine the
-  consensus of the subgroup, the results of the poll are invalid and should not
-  be cited as a representation of the position of the subgroup.
+  consensus of the group, the results of the poll are invalid and should not
+  be cited as a representation of the position of the group.
 
 For example, a chair may have reason to believe the poll is not an accurate
-  representation of the stakeholders in the subgroup for a variety of different
+  representation of the stakeholders in the group for a variety of different
   reasons:
 
-* Lack of participation by certain stakeholders in the subgroup.
+* Lack of participation by certain stakeholders in the group.
 * Disproportionate participation by participants who are not regular participants
-    and stakeholders in the subgroup, even if they are stakeholders on the
+    and stakeholders in the group, even if they are stakeholders on the
     particular matter at hand.
 * Disproportionate participation by the authors of the proposal under
     consideration.
@@ -371,21 +371,21 @@ For example, a chair may have reason to believe the poll is not an accurate
 For example, suppose we had this result:
 
 <blockquote>
-<b>POLL: Use electronic straw polls to in this subgroup.</b>
+<b>POLL: Use electronic straw polls in the Ponies and Unicorns Study Group.</b>
 
 <table>
-<tr>
-<th>Strongly For
-<th>Weakly For
-<th>Neutral
-<th>Weakly Against
-<th>Strongly Against
-<tr>
-<td>8
-<td>0
-<td>5
-<td>0
-<td>2
+  <tr>
+    <th>Strongly For
+    <th>Weakly For
+    <th>Neutral
+    <th>Weakly Against
+    <th>Strongly Against
+      <tr>
+        <td>8
+        <td>0
+        <td>5
+        <td>0
+        <td>2
 </table>
 </blockquote>
 
@@ -394,15 +394,15 @@ But, suppose also that:
 
 * All 8 of the people who voted strongly or weakly for the poll were authors of
     the proposal who are new to the committee and who are not regulars in the
-    subgroup.
-* Most of the 5 people who voted neutral were regular attendees of the subgroup,
+    group.
+* Most of the 5 people who voted neutral were regular attendees of the group,
     and noted in their poll comment that they voted neutral because
     they felt they did not understand the proposal.
-* 1 long time regular member of the subgroup voted strongly against because they
+* 1 long time regular member of the group voted strongly against because they
     read the proposal very thoroughly and provided a lot of feedback to the
     authors, and mentioned in their comment that they felt no steps had been
     taken to address their feedback.
-* Another long time regular member of the subgroup voted strongly against
+* Another long time regular member of the group voted strongly against
     because they are knowledgable about the subject matter and believe the
     proposal is a mistake.
 
@@ -415,7 +415,7 @@ They would also provide the authors with some guidance on what steps they might
 
 The electronic straw poll mechanism makes it easier for chairs to detect
   irregularities in polling; polls will be recorded with greater accuracy,
-  voters will be able to attach a comment to the poll, and chairs will be able
+  voters will be asked to provide a comment with their vote, and chairs will be able
   to identify who voted and how they voted.
 If irregularities are observed, they will be corrected and adjustments to our
   process can be made if needed.
@@ -449,7 +449,7 @@ Henceforth, [=straw polls=] should be divided into two categories:
     These polls will usually be taken on younger proposals, where there are still
       many open questions and areas for additional investigation.
     Direction [=straw polls=] can only be taken on proposals that will return to
-      the same evolution or study group before proceeding further.
+      the same group before proceeding further.
     Dissent should be recorded, so that authors know what work needs to be
       performed to increase consensus in the next revision of their proposal.
     The results of these polls can always be revisited if new information or new
@@ -457,14 +457,15 @@ Henceforth, [=straw polls=] should be divided into two categories:
     Direction polls do not change the status quo and can be revisited whenever
       we encounter new information or new perspectives.
 * <dfn>Decision Straw Polls</dfn>: These polls are taken to make decisions
-      regarding a proposal once the evolution or study group is confident that
+      regarding a proposal once the group is confident that
       all applicable and relevant aspects of the decision have been discussed.
     These polls will typically be taken on proposals that have been in the
-      evolution or study group for a few revisions, but can also be taken when a
+      group for a few revisions, but can also be taken when a
       proposal is an obvious one to approve, or when a proposal clearly has no
       chance of gaining consensus and should not be pursued further.
     Decision [=straw polls=] may forward proposals to other evolution groups,
-      study groups, or to plenary, as well as halt the progress of a proposal.
+      study groups, or to core groups, as well as halt the progress of a proposal.
+    Traditionally, only core groups forward proposals to plenary.
     Decision polls set the status quo.
     Changing the status quo requires a stronger consensus with a clear rationale.
 
@@ -504,11 +505,19 @@ Polls shall provide links to relevant published P- or N-numbered papers
 In a five-way poll, voters may select a stance on the statement being polled
   from these five options:
 
-* Strongly For.
-* Weakly For.
-* Neutral.
-* Weakly Against.
-* Strongly Against.
+<style>
+  .polls { width: 100% }
+  .polls td { border: 1px solid black; padding: 0.5em; text-align: center }
+</style>
+<table class=polls>
+  <tr>
+    <td>Strongly For
+    <td>Weakly For
+    <td>Neutral
+    <td>Weakly Against
+    <td>Strongly Against
+  </tr>
+</table>
 
 ## Eligibility for Voting ## {#eligibility-for-voting}
 
@@ -516,12 +525,13 @@ The service shall use the same login system as the isocpp.org paper submission
   service.
 
 An individual is eligible to obtain an isocpp.org account and participate in an
-  evolution or study group's electronic [=straw polls=] if they are any of the
-  following:
+  electronic [=straw polls=] if they are any of the following:
 
 * A member of a National Body that participates in the Standard C++ Committee,
     e.g. someone who is in the ISO Global Directory.
 * Any person who has attended one of the past three face-to-face meetings.
+
+We will revisit these criteria based on experience.
 
 ## Voting ## {#voting}
 
