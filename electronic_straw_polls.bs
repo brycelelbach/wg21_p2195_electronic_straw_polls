@@ -145,49 +145,86 @@ In a way, this is a mini-train model embedded into C++'s larger 3-year release
   train schedule:
 
 * Releases every three years (status quo).
-* Decision polls every quarter.
+* Evolution groups decision polls every quarter.
 * Mailings every month (status quo).
 * Teleconferences every week.
 
-<svg width="100%">
-  <rect width="50%" height="2em" x="00%" y="0em" fill="white" stroke="red" /><text x="25%" y="1em" dominant-baseline="middle" text-anchor="middle">🚂 C++Current</text>
-  <rect width="50%" height="2em" x="50%" y="0em" fill="white" stroke="red" /><text x="75%" y="1em" dominant-baseline="middle" text-anchor="middle">🚂 C++Next</text>
+<style>
+  .telecon { font-size:0.5em; }
+</style>
+<svg width="100%" height="10.5em">
+  <rect width="100%" height="2em" x="00%" y="0em" fill="white" stroke="red" /><text x="50%" y="1em" dominant-baseline="middle" text-anchor="middle">🚂 C++Next</text>
 
-  <rect width="12.5%" height="2em" x="00.0%" y="3em" fill="white" stroke="blue" /><text x="06.25%" y="4em" dominant-baseline="middle" text-anchor="middle">🚄 ¼</text>
-  <rect width="12.5%" height="2em" x="12.5%" y="3em" fill="white" stroke="blue" /><text x="18.75%" y="4em" dominant-baseline="middle" text-anchor="middle">🚄 ¼</text>
-  <rect width="12.5%" height="2em" x="25.0%" y="3em" fill="white" stroke="blue" /><text x="31.25%" y="4em" dominant-baseline="middle" text-anchor="middle">🚄 ¼</text>
-  <rect width="12.5%" height="2em" x="37.5%" y="3em" fill="white" stroke="blue" /><text x="43.75%" y="4em" dominant-baseline="middle" text-anchor="middle">🚄 ¼</text>
+  <rect width="25%" height="2em" x="00%" y="3em" fill="white" stroke="blue" /><text x="12.5%" y="4em" dominant-baseline="middle" text-anchor="middle">🚄 ¼</text>
+  <rect width="25%" height="2em" x="25%" y="3em" fill="white" stroke="blue" /><text x="37.5%" y="4em" dominant-baseline="middle" text-anchor="middle">🚄 ¼</text>
+  <rect width="25%" height="2em" x="50%" y="3em" fill="white" stroke="blue" /><text x="62.5%" y="4em" dominant-baseline="middle" text-anchor="middle">🚄 ¼</text>
+  <rect width="25%" height="2em" x="75%" y="3em" fill="white" stroke="blue" /><text x="87.5%" y="4em" dominant-baseline="middle" text-anchor="middle">🚄 ¼</text>
 
-  <rect width="12.5%" height="2em" x="50.0%" y="3em" fill="white" stroke="blue" /><text x="56.25%" y="4em" dominant-baseline="middle" text-anchor="middle">🚄 ¼</text>
-  <rect width="12.5%" height="2em" x="62.5%" y="3em" fill="white" stroke="blue" /><text x="68.75%" y="4em" dominant-baseline="middle" text-anchor="middle">🚄 ¼</text>
-  <rect width="12.5%" height="2em" x="75.0%" y="3em" fill="white" stroke="blue" /><text x="81.25%" y="4em" dominant-baseline="middle" text-anchor="middle">🚄 ¼</text>
-  <rect width="12.5%" height="2em" x="87.5%" y="3em" fill="white" stroke="blue" /><text x="93.75%" y="4em" dominant-baseline="middle" text-anchor="middle">🚄 ¼</text>
+  <rect width="08.333%" height="2em" x="00.000%" y="6em" fill="white" stroke="green" /><text x="04.167%" y="7em" dominant-baseline="middle" text-anchor="middle">📧️</text>
+  <rect width="08.333%" height="2em" x="08.333%" y="6em" fill="white" stroke="green" /><text x="12.500%" y="7em" dominant-baseline="middle" text-anchor="middle">📧️</text>
+  <rect width="08.333%" height="2em" x="16.667%" y="6em" fill="white" stroke="green" /><text x="20.833%" y="7em" dominant-baseline="middle" text-anchor="middle">📧️</text>
+  <rect width="08.333%" height="2em" x="25.000%" y="6em" fill="white" stroke="green" /><text x="29.167%" y="7em" dominant-baseline="middle" text-anchor="middle">📧️</text>
+  <rect width="08.333%" height="2em" x="33.333%" y="6em" fill="white" stroke="green" /><text x="37.500%" y="7em" dominant-baseline="middle" text-anchor="middle">📧️</text>
+  <rect width="08.333%" height="2em" x="41.667%" y="6em" fill="white" stroke="green" /><text x="45.833%" y="7em" dominant-baseline="middle" text-anchor="middle">📧️</text>
+  <rect width="08.333%" height="2em" x="50.000%" y="6em" fill="white" stroke="green" /><text x="54.167%" y="7em" dominant-baseline="middle" text-anchor="middle">📧️</text>
+  <rect width="08.333%" height="2em" x="58.333%" y="6em" fill="white" stroke="green" /><text x="62.500%" y="7em" dominant-baseline="middle" text-anchor="middle">📧️</text>
+  <rect width="08.333%" height="2em" x="66.667%" y="6em" fill="white" stroke="green" /><text x="70.833%" y="7em" dominant-baseline="middle" text-anchor="middle">📧️</text>
+  <rect width="08.333%" height="2em" x="75.000%" y="6em" fill="white" stroke="green" /><text x="79.167%" y="7em" dominant-baseline="middle" text-anchor="middle">📧️</text>
+  <rect width="08.333%" height="2em" x="83.333%" y="6em" fill="white" stroke="green" /><text x="87.500%" y="7em" dominant-baseline="middle" text-anchor="middle">📧️</text>
+  <rect width="08.333%" height="2em" x="91.667%" y="6em" fill="white" stroke="green" /><text x="95.833%" y="7em" dominant-baseline="middle" text-anchor="middle">📧️</text>
 
-  <rect width="04.167%" height="2em" x="00.000%" y="6em" fill="white" stroke="green" /><text x="02.083%" y="7em" dominant-baseline="middle" text-anchor="middle">📧️</text>
-  <rect width="04.167%" height="2em" x="04.167%" y="6em" fill="white" stroke="green" /><text x="06.250%" y="7em" dominant-baseline="middle" text-anchor="middle">📧️</text>
-  <rect width="04.167%" height="2em" x="08.333%" y="6em" fill="white" stroke="green" /><text x="10.417%" y="7em" dominant-baseline="middle" text-anchor="middle">📧️</text>
-  <rect width="04.167%" height="2em" x="12.500%" y="6em" fill="white" stroke="green" /><text x="14.583%" y="7em" dominant-baseline="middle" text-anchor="middle">📧️</text>
-  <rect width="04.167%" height="2em" x="16.667%" y="6em" fill="white" stroke="green" /><text x="18.750%" y="7em" dominant-baseline="middle" text-anchor="middle">📧️</text>
-  <rect width="04.167%" height="2em" x="20.833%" y="6em" fill="white" stroke="green" /><text x="22.917%" y="7em" dominant-baseline="middle" text-anchor="middle">📧️</text>
-  <rect width="04.167%" height="2em" x="25.000%" y="6em" fill="white" stroke="green" /><text x="27.083%" y="7em" dominant-baseline="middle" text-anchor="middle">📧️</text>
-  <rect width="04.167%" height="2em" x="29.167%" y="6em" fill="white" stroke="green" /><text x="31.250%" y="7em" dominant-baseline="middle" text-anchor="middle">📧️</text>
-  <rect width="04.167%" height="2em" x="33.333%" y="6em" fill="white" stroke="green" /><text x="35.417%" y="7em" dominant-baseline="middle" text-anchor="middle">📧️</text>
-  <rect width="04.167%" height="2em" x="37.500%" y="6em" fill="white" stroke="green" /><text x="39.583%" y="7em" dominant-baseline="middle" text-anchor="middle">📧️</text>
-  <rect width="04.167%" height="2em" x="41.667%" y="6em" fill="white" stroke="green" /><text x="43.750%" y="7em" dominant-baseline="middle" text-anchor="middle">📧️</text>
-  <rect width="04.167%" height="2em" x="45.833%" y="6em" fill="white" stroke="green" /><text x="47.917%" y="7em" dominant-baseline="middle" text-anchor="middle">📧️</text>
-
-  <rect width="04.167%" height="2em" x="50.000%" y="6em" fill="white" stroke="green" /><text x="52.083%" y="7em" dominant-baseline="middle" text-anchor="middle">📧️</text>
-  <rect width="04.167%" height="2em" x="54.167%" y="6em" fill="white" stroke="green" /><text x="56.250%" y="7em" dominant-baseline="middle" text-anchor="middle">📧️</text>
-  <rect width="04.167%" height="2em" x="58.333%" y="6em" fill="white" stroke="green" /><text x="60.417%" y="7em" dominant-baseline="middle" text-anchor="middle">📧️</text>
-  <rect width="04.167%" height="2em" x="62.500%" y="6em" fill="white" stroke="green" /><text x="64.583%" y="7em" dominant-baseline="middle" text-anchor="middle">📧️</text>
-  <rect width="04.167%" height="2em" x="66.667%" y="6em" fill="white" stroke="green" /><text x="68.750%" y="7em" dominant-baseline="middle" text-anchor="middle">📧️</text>
-  <rect width="04.167%" height="2em" x="70.833%" y="6em" fill="white" stroke="green" /><text x="72.917%" y="7em" dominant-baseline="middle" text-anchor="middle">📧️</text>
-  <rect width="04.167%" height="2em" x="75.000%" y="6em" fill="white" stroke="green" /><text x="77.083%" y="7em" dominant-baseline="middle" text-anchor="middle">📧️</text>
-  <rect width="04.167%" height="2em" x="79.167%" y="6em" fill="white" stroke="green" /><text x="81.250%" y="7em" dominant-baseline="middle" text-anchor="middle">📧️</text>
-  <rect width="04.167%" height="2em" x="83.333%" y="6em" fill="white" stroke="green" /><text x="85.417%" y="7em" dominant-baseline="middle" text-anchor="middle">📧️</text>
-  <rect width="04.167%" height="2em" x="87.500%" y="6em" fill="white" stroke="green" /><text x="89.583%" y="7em" dominant-baseline="middle" text-anchor="middle">📧️</text>
-  <rect width="04.167%" height="2em" x="91.667%" y="6em" fill="white" stroke="green" /><text x="93.750%" y="7em" dominant-baseline="middle" text-anchor="middle">📧️</text>
-  <rect width="04.167%" height="2em" x="95.833%" y="6em" fill="white" stroke="green" /><text x="97.917%" y="7em" dominant-baseline="middle" text-anchor="middle">📧️</text>
+  <rect width="1.923%" height="2em" x="00.000%" y="9em" fill="white" stroke="black" /><text x="00.962%" y="10em" dominant-baseline="middle" text-anchor="middle"><tspan class="telecon">📞</tspan></text>
+  <rect width="1.923%" height="2em" x="01.923%" y="9em" fill="white" stroke="black" /><text x="02.885%" y="10em" dominant-baseline="middle" text-anchor="middle"><tspan class="telecon">📞</tspan></text>
+  <rect width="1.923%" height="2em" x="03.846%" y="9em" fill="white" stroke="black" /><text x="04.808%" y="10em" dominant-baseline="middle" text-anchor="middle"><tspan class="telecon">📞</tspan></text>
+  <rect width="1.923%" height="2em" x="05.769%" y="9em" fill="white" stroke="black" /><text x="06.731%" y="10em" dominant-baseline="middle" text-anchor="middle"><tspan class="telecon">📞</tspan></text>
+  <rect width="1.923%" height="2em" x="07.692%" y="9em" fill="white" stroke="black" /><text x="08.654%" y="10em" dominant-baseline="middle" text-anchor="middle"><tspan class="telecon">📞</tspan></text>
+  <rect width="1.923%" height="2em" x="09.615%" y="9em" fill="white" stroke="black" /><text x="10.577%" y="10em" dominant-baseline="middle" text-anchor="middle"><tspan class="telecon">📞</tspan></text>
+  <rect width="1.923%" height="2em" x="11.538%" y="9em" fill="white" stroke="black" /><text x="12.500%" y="10em" dominant-baseline="middle" text-anchor="middle"><tspan class="telecon">📞</tspan></text>
+  <rect width="1.923%" height="2em" x="13.462%" y="9em" fill="white" stroke="black" /><text x="14.423%" y="10em" dominant-baseline="middle" text-anchor="middle"><tspan class="telecon">📞</tspan></text>
+  <rect width="1.923%" height="2em" x="15.385%" y="9em" fill="white" stroke="black" /><text x="16.346%" y="10em" dominant-baseline="middle" text-anchor="middle"><tspan class="telecon">📞</tspan></text>
+  <rect width="1.923%" height="2em" x="17.308%" y="9em" fill="white" stroke="black" /><text x="18.269%" y="10em" dominant-baseline="middle" text-anchor="middle"><tspan class="telecon">📞</tspan></text>
+  <rect width="1.923%" height="2em" x="19.231%" y="9em" fill="white" stroke="black" /><text x="20.192%" y="10em" dominant-baseline="middle" text-anchor="middle"><tspan class="telecon">📞</tspan></text>
+  <rect width="1.923%" height="2em" x="21.154%" y="9em" fill="white" stroke="black" /><text x="22.115%" y="10em" dominant-baseline="middle" text-anchor="middle"><tspan class="telecon">📞</tspan></text>
+  <rect width="1.923%" height="2em" x="23.077%" y="9em" fill="white" stroke="black" /><text x="24.038%" y="10em" dominant-baseline="middle" text-anchor="middle"><tspan class="telecon">📞</tspan></text>
+  <rect width="1.923%" height="2em" x="25.000%" y="9em" fill="white" stroke="black" /><text x="25.962%" y="10em" dominant-baseline="middle" text-anchor="middle"><tspan class="telecon">📞</tspan></text>
+  <rect width="1.923%" height="2em" x="26.923%" y="9em" fill="white" stroke="black" /><text x="27.885%" y="10em" dominant-baseline="middle" text-anchor="middle"><tspan class="telecon">📞</tspan></text>
+  <rect width="1.923%" height="2em" x="28.846%" y="9em" fill="white" stroke="black" /><text x="29.808%" y="10em" dominant-baseline="middle" text-anchor="middle"><tspan class="telecon">📞</tspan></text>
+  <rect width="1.923%" height="2em" x="30.769%" y="9em" fill="white" stroke="black" /><text x="31.731%" y="10em" dominant-baseline="middle" text-anchor="middle"><tspan class="telecon">📞</tspan></text>
+  <rect width="1.923%" height="2em" x="32.692%" y="9em" fill="white" stroke="black" /><text x="33.654%" y="10em" dominant-baseline="middle" text-anchor="middle"><tspan class="telecon">📞</tspan></text>
+  <rect width="1.923%" height="2em" x="34.615%" y="9em" fill="white" stroke="black" /><text x="35.577%" y="10em" dominant-baseline="middle" text-anchor="middle"><tspan class="telecon">📞</tspan></text>
+  <rect width="1.923%" height="2em" x="36.538%" y="9em" fill="white" stroke="black" /><text x="37.500%" y="10em" dominant-baseline="middle" text-anchor="middle"><tspan class="telecon">📞</tspan></text>
+  <rect width="1.923%" height="2em" x="38.462%" y="9em" fill="white" stroke="black" /><text x="39.423%" y="10em" dominant-baseline="middle" text-anchor="middle"><tspan class="telecon">📞</tspan></text>
+  <rect width="1.923%" height="2em" x="40.385%" y="9em" fill="white" stroke="black" /><text x="41.346%" y="10em" dominant-baseline="middle" text-anchor="middle"><tspan class="telecon">📞</tspan></text>
+  <rect width="1.923%" height="2em" x="42.308%" y="9em" fill="white" stroke="black" /><text x="43.269%" y="10em" dominant-baseline="middle" text-anchor="middle"><tspan class="telecon">📞</tspan></text>
+  <rect width="1.923%" height="2em" x="44.231%" y="9em" fill="white" stroke="black" /><text x="45.192%" y="10em" dominant-baseline="middle" text-anchor="middle"><tspan class="telecon">📞</tspan></text>
+  <rect width="1.923%" height="2em" x="46.154%" y="9em" fill="white" stroke="black" /><text x="47.115%" y="10em" dominant-baseline="middle" text-anchor="middle"><tspan class="telecon">📞</tspan></text>
+  <rect width="1.923%" height="2em" x="48.077%" y="9em" fill="white" stroke="black" /><text x="49.038%" y="10em" dominant-baseline="middle" text-anchor="middle"><tspan class="telecon">📞</tspan></text>
+  <rect width="1.923%" height="2em" x="50.000%" y="9em" fill="white" stroke="black" /><text x="50.962%" y="10em" dominant-baseline="middle" text-anchor="middle"><tspan class="telecon">📞</tspan></text>
+  <rect width="1.923%" height="2em" x="51.923%" y="9em" fill="white" stroke="black" /><text x="52.885%" y="10em" dominant-baseline="middle" text-anchor="middle"><tspan class="telecon">📞</tspan></text>
+  <rect width="1.923%" height="2em" x="53.846%" y="9em" fill="white" stroke="black" /><text x="54.808%" y="10em" dominant-baseline="middle" text-anchor="middle"><tspan class="telecon">📞</tspan></text>
+  <rect width="1.923%" height="2em" x="55.769%" y="9em" fill="white" stroke="black" /><text x="56.731%" y="10em" dominant-baseline="middle" text-anchor="middle"><tspan class="telecon">📞</tspan></text>
+  <rect width="1.923%" height="2em" x="57.692%" y="9em" fill="white" stroke="black" /><text x="58.654%" y="10em" dominant-baseline="middle" text-anchor="middle"><tspan class="telecon">📞</tspan></text>
+  <rect width="1.923%" height="2em" x="59.615%" y="9em" fill="white" stroke="black" /><text x="60.577%" y="10em" dominant-baseline="middle" text-anchor="middle"><tspan class="telecon">📞</tspan></text>
+  <rect width="1.923%" height="2em" x="61.538%" y="9em" fill="white" stroke="black" /><text x="62.500%" y="10em" dominant-baseline="middle" text-anchor="middle"><tspan class="telecon">📞</tspan></text>
+  <rect width="1.923%" height="2em" x="63.462%" y="9em" fill="white" stroke="black" /><text x="64.423%" y="10em" dominant-baseline="middle" text-anchor="middle"><tspan class="telecon">📞</tspan></text>
+  <rect width="1.923%" height="2em" x="65.385%" y="9em" fill="white" stroke="black" /><text x="66.346%" y="10em" dominant-baseline="middle" text-anchor="middle"><tspan class="telecon">📞</tspan></text>
+  <rect width="1.923%" height="2em" x="67.308%" y="9em" fill="white" stroke="black" /><text x="68.269%" y="10em" dominant-baseline="middle" text-anchor="middle"><tspan class="telecon">📞</tspan></text>
+  <rect width="1.923%" height="2em" x="69.231%" y="9em" fill="white" stroke="black" /><text x="70.192%" y="10em" dominant-baseline="middle" text-anchor="middle"><tspan class="telecon">📞</tspan></text>
+  <rect width="1.923%" height="2em" x="71.154%" y="9em" fill="white" stroke="black" /><text x="72.115%" y="10em" dominant-baseline="middle" text-anchor="middle"><tspan class="telecon">📞</tspan></text>
+  <rect width="1.923%" height="2em" x="73.077%" y="9em" fill="white" stroke="black" /><text x="74.038%" y="10em" dominant-baseline="middle" text-anchor="middle"><tspan class="telecon">📞</tspan></text>
+  <rect width="1.923%" height="2em" x="75.000%" y="9em" fill="white" stroke="black" /><text x="75.962%" y="10em" dominant-baseline="middle" text-anchor="middle"><tspan class="telecon">📞</tspan></text>
+  <rect width="1.923%" height="2em" x="76.923%" y="9em" fill="white" stroke="black" /><text x="77.885%" y="10em" dominant-baseline="middle" text-anchor="middle"><tspan class="telecon">📞</tspan></text>
+  <rect width="1.923%" height="2em" x="78.846%" y="9em" fill="white" stroke="black" /><text x="79.808%" y="10em" dominant-baseline="middle" text-anchor="middle"><tspan class="telecon">📞</tspan></text>
+  <rect width="1.923%" height="2em" x="80.769%" y="9em" fill="white" stroke="black" /><text x="81.731%" y="10em" dominant-baseline="middle" text-anchor="middle"><tspan class="telecon">📞</tspan></text>
+  <rect width="1.923%" height="2em" x="82.692%" y="9em" fill="white" stroke="black" /><text x="83.654%" y="10em" dominant-baseline="middle" text-anchor="middle"><tspan class="telecon">📞</tspan></text>
+  <rect width="1.923%" height="2em" x="84.615%" y="9em" fill="white" stroke="black" /><text x="85.577%" y="10em" dominant-baseline="middle" text-anchor="middle"><tspan class="telecon">📞</tspan></text>
+  <rect width="1.923%" height="2em" x="86.538%" y="9em" fill="white" stroke="black" /><text x="87.500%" y="10em" dominant-baseline="middle" text-anchor="middle"><tspan class="telecon">📞</tspan></text>
+  <rect width="1.923%" height="2em" x="88.462%" y="9em" fill="white" stroke="black" /><text x="89.423%" y="10em" dominant-baseline="middle" text-anchor="middle"><tspan class="telecon">📞</tspan></text>
+  <rect width="1.923%" height="2em" x="90.385%" y="9em" fill="white" stroke="black" /><text x="91.346%" y="10em" dominant-baseline="middle" text-anchor="middle"><tspan class="telecon">📞</tspan></text>
+  <rect width="1.923%" height="2em" x="92.308%" y="9em" fill="white" stroke="black" /><text x="93.269%" y="10em" dominant-baseline="middle" text-anchor="middle"><tspan class="telecon">📞</tspan></text>
+  <rect width="1.923%" height="2em" x="94.231%" y="9em" fill="white" stroke="black" /><text x="95.192%" y="10em" dominant-baseline="middle" text-anchor="middle"><tspan class="telecon">📞</tspan></text>
+  <rect width="1.923%" height="2em" x="96.154%" y="9em" fill="white" stroke="black" /><text x="97.115%" y="10em" dominant-baseline="middle" text-anchor="middle"><tspan class="telecon">📞</tspan></text>
+  <rect width="1.923%" height="2em" x="98.077%" y="9em" fill="white" stroke="black" /><text x="99.038%" y="10em" dominant-baseline="middle" text-anchor="middle"><tspan class="telecon">📞</tspan></text>
 </svg>
 
 ## Prior Art ## {#prior-art}
