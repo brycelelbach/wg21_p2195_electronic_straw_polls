@@ -144,9 +144,9 @@ In short, we propose:
 In a way, this is a mini-train model embedded into C++'s larger 3-year release
   train schedule:
 
-* Releases every three years.
+* Releases every three years (status quo).
 * Decision polls every quarter.
-* Mailings every month.
+* Mailings every month (status quo).
 * Teleconferences every week.
 
 <svg width="100%">
@@ -250,12 +250,7 @@ The below excerpt describes their process for one particular type of poll:
 
 ## Consensus Building Mechanisms ## {#consensus-building-mechanisms}
 
-> Consensus: General agreement, characterized by the absence of sustained
-> opposition to substantial issues by any important part of the concerned
-> interests and by a process that involves seeking to take into account the
-> views of all parties concerned and to reconcile any conflicting arguments.
->
-> - ISO/IEC Guide 2:2004
+Our consensus building is <a href="https://isocpp.org/std/standing-documents/sd-4-wg21-practices-and-procedures#consensus">defined in SD-4</a>.
 
 <dfn>Synchronous Consensus Building</dfn> is a process for building consensus
   in which those involved meet at an appointed time (face-to-face or via
@@ -349,9 +344,8 @@ Chairs often use polls as a mechanism to help them determine consensus.
 The chair's determination of consensus is authoritative, not the
   straw poll.
 
-If a chair states that the result of poll does not help them determine the
-  consensus of the group, the results of the poll are invalid and should not
-  be cited as a representation of the position of the group.
+If a chair states that the result of poll does not have consensus, then results
+  should not be cited as a representation of the position of the group.
 
 For example, a chair may have reason to believe the poll is not an accurate
   representation of the stakeholders in the group for a variety of different
@@ -408,6 +402,7 @@ But, suppose also that:
 
 In this circumstance, a chair may determine that there is no consensus on this
   matter.
+Most importantly, the proposal hasn't achieved absence of sustained opposition.
 The chair would inform the authors and the group that the poll was inconclusive
   and would have to be retaken after another round of discussions.
 They would also provide the authors with some guidance on what steps they might
@@ -422,15 +417,16 @@ If irregularities are observed, they will be corrected and adjustments to our
 
 # Proposed Changes # {#proposed-changes}
 
-Today, the purpose of meetings is to make decisions.
+Today, the purpose of meetings is to give formal feedback to help proposals
+  progress and to make decisions.
 Work on proposals is largely done outside of meetings.
 At meetings, we review proposals, identifying where additional work is needed
   before a decision is made, and, when sufficient information is available,
   making decisions about how and if a proposal should proceed.
 
-We propose a new model, where the purpose of meetings is to drive decision
-  making, but not require that the decision making happen at the meetings
-  themselves.
+We propose a new model, where the purpose of meetings is to give formal feedback
+  and to drive decision making, but not require that the decision making happen
+  at the meetings themselves.
 Meetings would continue to be used to review and refine proposals and identify
   open questions.
 However, instead of focusing on making decisions at meetings, we would instead
@@ -684,6 +680,8 @@ Ultimately, our goal is to work together to reach an outcome that is acceptable
 That would be harder to do if voting was anonymous.
 
 <b>Q: What about plenary and [=plenary polls=]?</b>
+
+This proposal is about evolution groups' polls only.
 
 This proposal does not suggest any changes to our plenary process at this time.
 We believe incremental change is safer than drastic change.
