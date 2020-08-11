@@ -151,8 +151,9 @@ In a way, this is a mini-train model embedded into C++'s larger 3-year release
 
 <style>
   .telecon { font-size:0.5em; }
+  .choo-choo { width: 95%; padding: 1em 2.5% 1em 2.5%; height: 11em; }
 </style>
-<svg width="100%" height="10.5em">
+<svg class="choo-choo">
   <rect width="100%" height="2em" x="00%" y="0em" fill="white" stroke="red" /><text x="50%" y="1em" dominant-baseline="middle" text-anchor="middle">🚂 C++Next</text>
 
   <rect width="25%" height="2em" x="00%" y="3em" fill="white" stroke="blue" /><text x="12.5%" y="4em" dominant-baseline="middle" text-anchor="middle">🚄 ¼</text>
