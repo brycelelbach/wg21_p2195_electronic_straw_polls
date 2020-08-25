@@ -10,6 +10,8 @@ Editor: JF Bastien — Evolution Chair and Canadian National Body, Apple, cxx@jf
 Editor: Hal Finkel — Administrative Chair & US National Body Vice Chair, Argonne National Laboratory, hfinkel@anl.gov
 Editor: Fabio Fracassi — Library Evolution Vice Chair, CODE University of Applied Sciences, f.fracassi@gmx.net
 Editor: Ben Craig — Library Evolution Vice Chair, NI, ben.craig@gmail.com
+Editor: Billy Baker — Library Evolution Incubator Chair, FlightSafety, Billy.Baker@flightsafety.com
+Editor: Nevin Liber — Library Evolution Incubator Vice Chair, Argonne National Laboratory, nliber@gmail.com
 Editor: Titus Winters — Library Evolution Chair Emeritus, Google, titus@google.com
 Editor: Jeffrey Yasskin — Library Evolution Chair Emeritus, Google, jyasskin@gmail.com
 Editor: Ville Voutilainen — Evolution Chair Emeritus and Finnish National Body, The Qt Company, ville.voutilainen@gmail.com
@@ -17,7 +19,7 @@ Editor: Tom Honermann — SG16 Unicode and Text Processing (SG16) Chair, Synopsy
 Editor: Inbal Levi — Israeli National Body Chair, sinbal2l@gmail.com
 Editor: Antony Polukhin — Russian National Body, antoshkka@gmail.com
 Editor: Corentin Jabot — French National Body, corentin.jabot@gmail.com
-Editor: David Stone - Evolution Working Group Vice Chair, Modules Study Group Chair, david@doublewise.net
+Editor: David Stone — Evolution Working Group Vice Chair, Modules Study Group Chair, david@doublewise.net
 URL: https://wg21.link/P2195R0
 !Source: <a href="https://github.com/brycelelbach/wg21_p2195_electronic_straw_polls/blob/main/electronic_straw_polls.bs">GitHub</a>
 Issue Tracking: GitHub https://github.com/brycelelbach/wg21_p2195_electronic_straw_polls/issues
@@ -92,7 +94,7 @@ div.newnumbered li:before {
 }
 </style>
 
-# Motivation and Summary # {#motivation-summary}
+# Introduction # {#introduction}
 
 The Standard C++ Committee is starting to conduct more and more of our
   technical work in a virtual environment (see [[P2145R0]]), in part due to
@@ -101,36 +103,32 @@ This switch to remote work has required us to make changes to how we meet and
   collaborate.
 
 To have effective virtual meetings, we need to evolve our consensus building
-  process, because it has traditionally been in-person only.
-We will not meet in-person again until it is possible to do so without
+  process, because it has traditionally been face-to-face only.
+We will not meet face-to-face again until it is possible to do so without
   putting peoples' lives at risk, and we do not know when that will be.
 
 We therefore propose that the Evolution and Library Evolution chairs be able to
   conduct [=straw polls=] asynchronously through an electronic polling service
   on isocpp.org.
-We separate polls into two categories: [=Direction Straw Polls=] and
-  [=Decision Straw Polls=].
 
-We focus on the evolution groups because, so far, study groups and
-  the core groups have been able to advance work without too many issues.
-In large parts, this is because study groups are focused interest groups who
-  forward to evolutions groups.
-Similarly, core groups are smaller and have more focus, and controversial design
-  discussions tend to occur prior to reaching the core groups.
+## Related Work ## {#related-work}
 
-This proposal doesn't address what work should be prioritized or the process by
-  which a proposal moves through the committee.
-These important tasks are performed by [[P0592R4]] (prioritization) and
-  [[P2138R2]] (proposal flow).
+The following proposals address topics related to this proposal:
 
-## Proposal Summary ## {#tldr}
+* [[P0592R4]] establishes our priorities for C++ evolution.
+* [[P2138R2]] explains how proposals should move through the committee.
+* [[P2145R1]] describes processes and procedures for remote meetings.
 
-In short, we propose:
+## Summary ## {#summary}
+
+we propose:
 
 * Continuing virtual teleconferences, which hone design and provide
     non-binding design direction.
 * Begin holding quarterly asynchronous electronic polls for evolution groups
     through a web service on isocpp.org.
+* Separate polls into two categories: [=Direction Straw Polls=] and
+    [=Decision Straw Polls=].
 * Anything that is judged ready for a binding decision poll is put on the
     next applicable quarterly poll.
 * Polls can be added to the quarterly list up to a month before the quarterly
@@ -227,6 +225,15 @@ In a way, this is a mini-train model embedded into C++'s larger 3-year release
   <rect width="1.923%" height="2em" x="96.154%" y="9em" fill="white" stroke="black" /><text x="97.115%" y="10em" dominant-baseline="middle" text-anchor="middle"><tspan class="telecon">📞</tspan></text>
   <rect width="1.923%" height="2em" x="98.077%" y="9em" fill="white" stroke="black" /><text x="99.038%" y="10em" dominant-baseline="middle" text-anchor="middle"><tspan class="telecon">📞</tspan></text>
 </svg>
+
+## Scope ## {#scope}
+
+We focus on the evolution groups because, so far, study groups and
+  the core groups have been able to advance work without too many issues.
+In large parts, this is because study groups are focused interest groups who
+  forward to evolutions groups.
+Similarly, core groups are smaller and have more focus, and controversial design
+  discussions tend to occur prior to reaching the core groups.
 
 ## Prior Art ## {#prior-art}
 
@@ -746,4 +753,27 @@ However, ISO provides another type of poll,
 Given that technical discussion is already discouraged for [=plenary polls=] and
   is intended to happen disjointly in evolution and study groups prior the
   plenary, electronic voting for [=plenary polls=] seems like a natural fit.
+
+<pre class=biblio>
+{
+  "P2145R1": {
+    "authors": [
+      "Bryce Adelstein Lelbach",
+      "Titus Winters",
+      "Fabio Fracassi",
+      "Ben Craig",
+      "Billy Baker",
+      "Nevin Liber",
+      "JF Bastien",
+      "David Stone",
+      "Botond Ballo",
+      "Erich Keane",
+      "Tom Honermann"
+    ],
+    "href": "https://wg21.link/p2145r1",
+    "title": "Evolving C++ Remotely",
+    "date": "25 August 2020"
+  }
+}
+</pre>
 
