@@ -108,25 +108,18 @@ We will not meet face-to-face again until it is possible to do so without
   putting peoples' lives at risk, and we do not know when that will be.
 
 We therefore propose that the Evolution and Library Evolution chairs be able to
-  conduct [=straw polls=] asynchronously through an electronic polling service
-  on isocpp.org.
-
-## Related Work ## {#related-work}
-
-The following proposals address topics related to this proposal:
-
-* [[P0592R4]] establishes our priorities for C++ evolution.
-* [[P2138R2]] explains how proposals should move through the committee.
-* [[P2145R1]] describes processes and procedures for remote meetings.
+  conduct [=straw polls=] asynchronously through either email or an electronic
+  polling service run by the Standard C++ Foundation.
 
 ## Summary ## {#summary}
 
-we propose:
+We propose:
 
 * Continuing virtual teleconferences, which hone design and provide
     non-binding design direction.
 * Begin holding quarterly asynchronous electronic polls for evolution groups
-    through a web service on isocpp.org.
+    either via email or an electronic polling service run by the Standard C++
+    Foundation.
 * Separate polls into two categories: [=Direction Straw Polls=] and
     [=Decision Straw Polls=].
 * Anything that is judged ready for a binding decision poll is put on the
@@ -225,6 +218,14 @@ In a way, this is a mini-train model embedded into C++'s larger 3-year release
   <rect width="1.923%" height="2em" x="96.154%" y="9em" fill="white" stroke="black" /><text x="97.115%" y="10em" dominant-baseline="middle" text-anchor="middle"><tspan class="telecon">📞</tspan></text>
   <rect width="1.923%" height="2em" x="98.077%" y="9em" fill="white" stroke="black" /><text x="99.038%" y="10em" dominant-baseline="middle" text-anchor="middle"><tspan class="telecon">📞</tspan></text>
 </svg>
+
+## Related Work ## {#related-work}
+
+The following proposals address topics related to this proposal:
+
+* [[P0592R4]] establishes our priorities for C++ evolution.
+* [[P2138R2]] explains how proposals should move through the committee.
+* [[P2145R1]] describes processes and procedures for remote meetings.
 
 ## Scope ## {#scope}
 
@@ -478,8 +479,8 @@ However, instead of focusing on making decisions at meetings, we would instead
   focus on identifying the decisions that need to be made.
 
 We propose that language and library evolution chairs have the option to conduct
-  [=straw polls=] asynchronously through an electronic polling service on
-  isocpp.org to determine consensus.
+  [=straw polls=] asynchronously through either email or an electronic polling
+  service run by the Standard C++ Foundation.
 
 Henceforth, [=straw polls=] should be divided into two categories:
 
@@ -525,11 +526,14 @@ In Evolution and Library Evolution, at the chair's discretion,
 
 # Electronic Straw Poll Specification # {#electronic-straw-poll-specification}
 
-Electronic [=straw polls=] shall be conducted through a service on isocpp.org.
+Electronic [=straw polls=] shall be conducted through either a:
+
+* A service hosted by the Standard C++ Foundation, or
+* Via email.
 
 ## Poll Structure ## {#poll-structure}
 
-The service shall support five-way polls.
+Electronic [=straw polls=] shall support five-way polls.
 
 A five-way poll consists of an arbitrary statement, determined by the applicable
   chair.
@@ -538,10 +542,14 @@ The polarity of the poll shall be that voting "in favor" means changing the
 Poll statements shall not be changed after the poll has begun.
 
 Polls shall only be conducted on published P- or N-numbered papers.
-Polls shall provide links to relevant published P- or N-numbered papers
-  applicable to the polls, relevant minutes for those papers, prior polls, and
-  the <a href="https://github.com/cplusplus/papers/issues">GitHub issue</a> for
-  said papers.
+Polls shall provide:
+* A summary of the discussion.
+* A summary of notable implications for different outcomes of the poll.
+* Links to:
+  * Relevant published P- or N-numbered papers applicable to the polls.
+  * Relevant minutes for those papers, prior polls.
+  * The <a href="https://github.com/cplusplus/papers/issues">GitHub issue</a>
+      for said papers.
 
 In a five-way poll, voters may select a stance on the statement being polled
   from these five options:
@@ -560,19 +568,18 @@ In a five-way poll, voters may select a stance on the statement being polled
   </tr>
 </table>
 
+Other types of polls may also be supported.
+
 ## Eligibility for Voting ## {#eligibility-for-voting}
 
-The service shall use the same login system as the isocpp.org paper submission
-  service.
-
-An individual is eligible to obtain an isocpp.org account and participate in an
-  electronic [=straw polls=] if they are any of the following:
+An individual is eligible to participate in an electronic [=straw polls=] if
+  they are any of the following:
 
 * A member of a National Body that participates in the Standard C++ Committee,
     e.g. someone who is in the ISO Global Directory.
 * Any person who has attended one of the past three face-to-face meetings.
 
-We will revisit these criteria based on experience.
+We will revisit these criteria as we gain field experience.
 
 ## Voting ## {#voting}
 
@@ -586,9 +593,22 @@ Each voter may change their vote and comment at any time prior to the closing of
 Each voter should be prompted to confirm that they have read the proposal and
   are familiar with the topic.
 
-The voting system shall follow best practices for accessibility.
-If any voter is unable to vote using the voting system for whatever reason, they
-  may submit their vote by emailing the chair who created the poll.
+### Voting (Email Specific) ### {#voting-email-specific}
+
+If email is used to conduct an electronic straw poll, voters shall submit their
+  votes by emailing the chair who created the poll.
+The subject of the email shall be specified by the chair.
+
+Chairs shall send a confirmation email that the vote has been received.
+Voters are responsible for ensuring that they have received a confirmation
+  prior to the close of the poll; only votes that have been confirmed by a
+  chair will be counted.
+
+### Voting (Service Specific) ### {#voting-service-specific}
+
+If a service is used to conduct an electronic straw poll and a voter is
+  unable to vote using the service for any reason, they may submit their vote
+  by emailing the chair who created the poll.
 
 ## Creation of Polls ## {#creation-of-polls}
 
@@ -598,21 +618,13 @@ Chairs may create polls.
 
 The chair who created a poll may withdraw or extend the duration of a poll.
 
-If a poll is withdrawn or extended, the chair shall make a comment, both on the
-  polling system and to polls@lists.isocpp.org, explaining why the poll was
-  withdrawn.
+If a poll is withdrawn or extended, the chair shall make a comment explaining
+  why the poll was withdrawn.
 
 ## Discussion Prior to Polling ## {#discussion-prior-to-polling}
 
 The subject of a poll shall be discussed either at a meeting or via the
   applicable mailing list prior to the start of a poll.
-
-Chairs shall notify attendees of a teleconference when a teleconference poll
-  aims to place a new poll in the upcoming quarterly poll. If the
-  teleconference poll has consensus, the poll shall be put on the upcoming
-  quarterly poll, at least a month before the poll period closes. Any
-  teleconference poll taken in the month leading to a quarterly poll is
-  instead scheduled for the subsequent quarter's poll.
 
 ## Poll Notifications ## {#poll-notifications}
 
