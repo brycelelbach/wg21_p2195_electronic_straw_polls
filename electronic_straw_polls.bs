@@ -623,7 +623,8 @@ If a poll is withdrawn or extended, the chair shall make a comment explaining
 
 ## Modification of Polls ## {#modification-of-polls}
 
-The chair who created a poll may modify the poll.
+The chair who created a poll may modify the poll after the start of the
+  polling period.
 Polls shall only be modified to correct mistakes in the poll wording, not to
   change the intent of the poll.
   
