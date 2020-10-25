@@ -20,7 +20,7 @@ Editor: Inbal Levi — Israeli National Body Chair, sinbal2l@gmail.com
 Editor: Antony Polukhin — Russian National Body, antoshkka@gmail.com
 Editor: Corentin Jabot — French National Body, corentin.jabot@gmail.com
 Editor: David Stone — Evolution Working Group Vice Chair, Modules Study Group Chair, david@doublewise.net
-URL: https://wg21.link/P2195R0
+URL: https://wg21.link/P2195R1
 !Source: <a href="https://github.com/brycelelbach/wg21_p2195_electronic_straw_polls/blob/main/electronic_straw_polls.bs">GitHub</a>
 Issue Tracking: GitHub https://github.com/brycelelbach/wg21_p2195_electronic_straw_polls/issues
 Metadata Order: Author, This Version, Source, Issue Tracking, Project, Audience
@@ -620,6 +620,16 @@ The chair who created a poll may withdraw or extend the duration of a poll.
 
 If a poll is withdrawn or extended, the chair shall make a comment explaining
   why the poll was withdrawn.
+
+## Modification of Polls ## {#modification-of-polls}
+
+The chair who created a poll may modify the poll.
+Polls shall only be modified to correct mistakes in the poll wording, not to
+  change the intent of the poll.
+  
+If a chair modifies a poll, all eligible voters shall be notified and informed
+  that they may request the poll be withdrawn.
+If any eligible voter requests the poll be withdrawn, the poll shall be withdrawn.
 
 ## Discussion Prior to Polling ## {#discussion-prior-to-polling}
 
