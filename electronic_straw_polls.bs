@@ -1,8 +1,8 @@
 <pre class='metadata'>
 Title: Electronic Straw Polls
-Shortname: P2195
-Revision: 1
-Status: P
+Shortname: D2195
+Revision: 2
+Status: D
 Group: WG21
 Audience: WG21
 Editor: Bryce Adelstein Lelbach (he/him/his) — Library Evolution Chair, NVIDIA, brycelelbach@gmail.com
