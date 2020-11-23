@@ -659,7 +659,7 @@ The position and comments of all voters shall remain hidden, until the poll
   closes.
 When the poll closes, the position and comments and their attribution to
   specific voters shall be made available to C++ Committee officers only.
-An anonymized summary of comments shall be made available to all C++
+An anonymized selected set of comments may be made available to all C++
   Committee members.
 
 Once a poll closes, the chair who created the poll shall receive an email
