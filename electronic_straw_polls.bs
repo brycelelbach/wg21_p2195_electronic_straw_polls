@@ -384,11 +384,10 @@ Ultimately, there is a trade-off between [=synchronous consensus building=] and
 >
 > - ISO/IEC Directives, Part 1, 2.5.6
 
-Within evolution, study, and core groups, we do not make decisions using polls.
-We make decisions by consensus not by vote.
-Chairs often use polls as a mechanism to help them determine consensus.
-The chair's determination of consensus is authoritative, not the
-  straw poll.
+We make decisions by consensus, not by voting.
+However, chairs often use polls as a mechanism to help them determine
+  consensus.
+The chair's determination of consensus is authoritative, not the straw poll.
 
 If a chair states that the result of poll does not have consensus, then results
   should not be cited as a representation of the position of the group.
