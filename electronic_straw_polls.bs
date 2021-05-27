@@ -396,6 +396,7 @@ For example, a chair may have reason to believe the poll is not an accurate
   representation of the stakeholders in the group for a variety of different
   reasons:
 
+* Ambiguity or misinterpretation of the poll.
 * Lack of participation by certain stakeholders in the group.
 * Disproportionate participation by participants who are not regular participants
     and stakeholders in the group, even if they are stakeholders on the
